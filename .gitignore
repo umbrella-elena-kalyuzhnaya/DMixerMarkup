@@ -1,0 +1,9 @@
+.sass-cache
+.DS_Store
+.idea
+node_modules
+npm-debug.log
+simple-php-git-deploy
+VERSION.txt
+error_log
+staging/

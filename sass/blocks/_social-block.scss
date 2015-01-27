@@ -1,5 +1,6 @@
 .social-block {
   margin-bottom: 16px;
+  position: relative;
   .social-title {
     @include bordered-block();
     margin-top: 20px;
@@ -11,16 +12,34 @@
     color: $block-title;
     letter-spacing: 0.2em;
   }
-  .social-content {
-
-  }
   @include respond-to(desktop-and-below) {}
     .social-title {
       line-height: 1em;
     }
-  @include respond-to(tablet-landscape-and-below) {}
+  @include respond-to(tablet-landscape-and-below) {
+    &.social-block-navbar {
+        .dmixer-subscribe {
+            padding-bottom: 10px;
+        }
+        &:after {
+          content: "";
+          display: block;
+          width: 94%;
+          height: 2px;
+          background: #fafafa;
+          position: absolute;
+          bottom: 0px;
+          right: 0;
+          left: 0;
+          margin: auto;
+      }
+    } 
+  }
   @include respond-to(tablet-portrait-and-below) {
     margin-bottom: 10px;
+    margin-top: 20px;
+      
+    
     .social-title {
       margin-top: 16px;
       font-size: 1.25em;
@@ -47,8 +66,10 @@
         margin-right: 5%;
       }
     }
-    
   }
+  @include respond-to(mobile-portrait-and-below) {
+    
+  } 
 }
 .social-icons {
   padding: 0;
