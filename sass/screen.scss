@@ -1,0 +1,33 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "vendors/bootstrap-sass/bootstrap";
+@import "vendors/responsive";
+@import "responder";
+@import "compass/css3";
+@import "compass/utilities/sprites";
+
+$spirits-layout: horizontal;
+$spirits-spacing: 4px;
+$spirits-position: 100%;
+$spirits-sprite-dimensions: true;
+
+$spirits-xs-layout: horizontal;
+$spirits-xs-spacing: 4px;
+$spirits-xs-position: 100%;
+$spirits-xs-sprite-dimensions: true;
+@import "spirits/*.png";
+@import "spirits-xs/*.png";
+
+@include all-spirits-sprites;
+
+
+
+@import 'colors';
+@import 'fonts';
+
+
+// FUNDAMENTAL STYLES: VARIABLES, TYPOGRAPHY, GENERAL
+@import 'general';
+@import 'carousel'

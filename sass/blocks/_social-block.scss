@@ -1,0 +1,108 @@
+.social-block {
+  margin-bottom: 16px;
+  .social-title {
+    @include bordered-block();
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3125em;
+    line-height: .75;
+    color: $block-title;
+    letter-spacing: 0.2em;
+  }
+  .social-content {
+
+  }
+  @include respond-to(desktop-and-below) {}
+    .social-title {
+      line-height: 1em;
+    }
+  @include respond-to(tablet-landscape-and-below) {}
+  @include respond-to(tablet-portrait-and-below) {
+    margin-bottom: 10px;
+    .social-title {
+      margin-top: 16px;
+      font-size: 1.25em;
+      line-height: 1em;
+      &:before {
+        margin-bottom: 10px;
+        width: 94%;
+      }
+    }
+    .social-icons {
+      margin-left: 0;
+      line-height: 22px;
+    }
+    .dmixer-subscribe {
+      width: auto;
+      .dmixer-subscribe-text {
+        font-size: 1em;
+        max-width: 230px;
+      }
+      .dmixer-subscribe-email {
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
+        margin-right: 5%;
+      }
+    }
+    
+  }
+}
+.social-icons {
+  padding: 0;
+  margin-bottom: 0;
+  line-height: 20px;
+  cursor: default;
+  @include text-align-justify();
+  @include respond-to(desktop-large-and-below){
+    width: 100%;
+    margin: auto;
+  }
+  .social-item {
+    display: inline-block;
+    width: calc(20% - 6px);
+    height: 40px;
+    a {
+      display: block;
+      opacity: 1;
+      @include transition(all .5s);
+       &:hover {
+        opacity: 0.7;
+      }
+    }
+    i {
+      display: block;
+      color:#fff;
+      font-size: 2em;
+      text-align: center;
+      height: 50px;
+      line-height: 50px; 
+      position: relative;
+      &:before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+    .ico-sc-fb {
+      background: $social-fb;
+    }
+    .ico-sc-tw {
+      background: $social-tw;
+    }
+    .ico-sc-pin {
+      background: $social-pin;
+    }
+    .ico-sc-gplus {
+      background: $social-gplus;
+    }
+    .ico-sc-like {
+      background: $social-like;
+    }
+  }
+}

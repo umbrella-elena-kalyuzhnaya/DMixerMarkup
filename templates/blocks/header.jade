@@ -1,0 +1,31 @@
+nav(role="navigation").navbar.navbar-default.navbar-fixed-top
+	.container
+		.navbar-header
+			a.navbar-brand(href='#') Drinks Mixer
+				img(alt='Drinks Mixer', src='images/logo.png')
+			button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle.collapsed
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+		.collapse.navbar-collapse.navbar-ex1-collapse
+			ul.nav.navbar-nav 
+				li.active: a(href="#") Recipes
+				li: a(href="#") Coctails
+				li: a(href="#") Shots
+				li: a(href="#") Beer
+				li: a(href="#") Non-alcoholic
+				li: a(href="#") More
+			ul.nav.navbar-nav.navbar-right
+				li.dropdown
+					a(href="#", data-toggle="dropdown").dropdown-toggle Dropdown <b class="caret"></b>
+					ul.dropdown-menu(role="menu")
+						li: a(href="#") Action
+						li: a(href="#") Another action
+						li: a(href="#") Something else here
+						li: a(href="#") Separated link
+			form(role="search").navbar-form.navbar-right.dmixer-search
+				.form-group 
+					input(type="text", placeholder="Search").form-control
+				button(type="submit").btn.btn-default
+

@@ -1,0 +1,22 @@
+// main-carousel-container
+section.main-carousel
+        h2 From the bar
+        .carousel-wrapper
+          #carousel.post-carousel 
+            ul.post.post-circular       
+              - var items = [['holiday-entertaining','The do\'s and dont\'ts of holiday entertaining','CarolineGoddard','Caroline Goddard' ],['holidays-coctails','Party perfect holidays coctails','MarisCallahan','Maris Callahan' ],['trips-party','Trips for pulling off a flawless holiday party','MarisCallahan','Maris Callahan']]
+              - each item, i in items
+                li.post-item
+                  .post-thumb
+                    img(class="wp-post-image",alt="#{item[0]}",src="images/#{item[0]}.jpg")
+                  .post-desc
+                    h4  
+                      a(href="#") #{item[1]}
+                    .entry-author
+                      img(src="images/authors/#{item[2]}.jpg",alt="#{item[3]}",class="img-circle")
+                      span by #{item[3]}
+
+            // prev and next button
+            a#prev.prev(href='#') &lt;             
+            a#next.next(href='#') &gt;
+          a.view-more(href='#') View all articles

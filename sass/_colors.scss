@@ -1,0 +1,155 @@
+/* VARIABLES
+----------------------------------------------------*/
+
+
+/* Base font variables  */
+$base-font-size: 16px;
+$base-line-height: 24px;
+$base-font-family: Arial;
+$base-font-light: Arial;
+
+$main-bg: rgb(82,72,70); /* #524846 */
+$header-bg: rgba(82,72,70,.85); /* #524846 */;
+
+$top-drinks-item: rgba(237,237,237,.65); /* #ededed */
+$item-bg: rgba(127,113,110,.7); /* #7f716e */
+
+
+$block-bg: rgba(255,255,255,.8);
+$block-header-bg: rgba(255,255,255,.4); 
+
+$block-title: rgb(237,237,237);
+
+$list-item-odd: rgba(127,113,110,.6);  /* #7f716e */
+$aside-list-item: rgba(127,113,110,.8);  /* #7f716e */
+$aside-list-item-1: rgba(127,113,110,.6);  /* #7f716e */
+$aside-list-item-2: rgba(127,113,110,.4);  /* #7f716e */
+
+$main-text: rgb(250,250,250); /* #fafafa */
+$main-border: rgb(250,250,250); /* #fafafa */
+$item-title-text: rgb(72,67,63); /* #48433f; */
+
+$common-block-title: rgba(237,237,237,.55); /* #ededed */
+$common-block-subtitle: rgba(237,237,237,.75); /* #ededed */
+$common-block-subtitle-hover: rgba(237,237,237,.9); /* #ededed */
+
+
+$rollover-drink: rgb(127,113,110); /* #7f716e */
+$category-item: rgb(244,216,210); /* #f4d8d2 */
+
+$main-search-bg: rgb(82,72,70);
+
+
+$social-fb: rgb(71,90,149); /* #475a95; */
+$social-tw: rgb(109,142,200); /* #6d8ec8; */
+$social-pin: rgb(172,38,44); /* #ac262c; */
+$social-gplus: rgb(193,76,60); /* #c14c3c; */
+$social-like: rgb(199,42,108); /* #c72a6c; */
+
+$responder-use-ems: false;
+
+
+
+
+
+$main-color-white: rgb(250,250,250); /* #fafafa */
+$main-color-gray: rgb(237,237,237); /* #ededed */
+$main-color-brown: rgb(127,113,110); /* #7f716e */
+$main-color-dark-brown: rgb(82,72,70); /* #524846 */
+$main-color-pink: rgb(244,216,210); /* #f4d8d2 */
+$main-color-red: rgb(170,42,7); /* #aa2a07 */
+
+$search-color-1: rgba(237,237,237,.75); /* #ededed */
+$search-color-2: rgba(237,237,237,.6); /* #ededed */
+$search-color-3: rgba(237,237,237,.4); /* #ededed */
+
+$brown-color-1: rgb(127,113,110); /* #7f716e */
+$brown-color-2: rgba(127,113,110,.8); /* #7f716e */
+$brown-color-3: rgba(127,113,110,.6); /* #7f716e */
+$brown-color-4: rgba(127,113,110,.4); /* #7f716e */
+$brown-color-5: rgba(127,113,110,.2); /* #7f716e */
+
+
+
+
+/* MIXINS
+----------------------------------------------------*/
+
+@mixin text-align-justify() {
+  text-align: justify;
+  text-align-last: justify;
+  &:after {
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+  }
+  li {
+    display: inline-block;
+    text-align: left;
+
+     /* Востанавливаем у потомков, кроме последнего*/
+     line-height: normal;
+  }
+}
+
+@mixin clearing() {
+  &:before,
+  &:after {
+    content:"";
+    display:table;
+  }
+  &:after {
+    clear:both;
+  }
+}
+
+@mixin bordered-block() {
+  margin-top: 20px;
+  .title {
+    color: #fff;
+    text-align: center;
+  }
+  &:before {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 2px;
+    background: #a83316;
+    margin-bottom: 24px;
+  }
+}
+@mixin placeholder-style($color,$font-size) {
+    ::-webkit-input-placeholder {
+      color:$color;
+      font-size: $font-size;
+      line-height: 2em;
+    }
+    ::-moz-placeholder {
+      color:$color;
+      font-size: $font-size;
+      line-height: 2em;
+    }/* Firefox 19+ */
+    :-moz-placeholder {
+      color:$color;
+      font-size: $font-size;
+      line-height: 2em;
+    }/* Firefox 18- */
+    :-ms-input-placeholder {
+      color:$color;
+      font-size: $font-size;
+      line-height: 2em;
+    }
+  }
+
+@include responder-breakpoints( 
+    mobile-portrait 320px,
+    mobile-landscape 480px,
+    tablet-portrait 600px,
+    tablet-landscape 768px,
+    desktop 990px,
+    desktop-large 1280px
+);

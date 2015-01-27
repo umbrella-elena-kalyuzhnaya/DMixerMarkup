@@ -1,0 +1,276 @@
+.dmixer-grid {
+  .dmixer-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 5px 5px 10px;  
+     // padding: 5px 5px 10px;padding: 2.47% 2.47% 4.93%;
+  }
+  .dmixer-item {
+    i {
+      font-size: 2em;
+      color: #fff;
+      display: block;
+      opacity: 0.35;
+      bottom: 10px;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+    }
+  }
+  .dmixer-drink {
+    background: $item-bg;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    .dmixer-drink-description {
+      width: 100%;
+      line-height: 1;
+      text-align: center;
+      border: 1px solid transparent;
+      position: absolute; 
+      bottom: 14%;
+    }    
+  }
+  .dmixer-title {
+    color: $main-text;
+    font-size: 1.625em; /* 26px/16xp */
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-right: 6px;
+    letter-spacing: .3em;
+
+    position: relative;
+    z-index: 100;
+  }
+  .dmixer-subtitle {
+    font-size: 1em;
+    line-height: 1.08em; 
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    padding-top: 12px;
+  }
+  
+  &.dmixer-grid-main {
+    padding: 0 3% 0 0;
+    h2 {
+        padding: 0 0 0 2.17%;
+    }
+    .col-lg-3 {
+      padding-bottom: 29.4%;
+    } 
+    .dmixer-title {
+      max-width: 230px; 
+      padding-left: 6px;
+      padding-right: 6px;
+      margin: auto;
+      margin-right: -4px;
+    }
+  }
+  &.dmixer-grid-aside {
+    padding: 0;
+      div:nth-child(2n+2) {
+        .dmixer-drink {
+          background: $aside-list-item-1;
+        }
+      }
+      div:nth-child(3n+3) {
+        .dmixer-drink {
+          background: $aside-list-item-2;
+        }
+      }
+    .row {
+      padding-bottom: 0;
+    }
+    .dmixer-wrap {
+    }
+    .dmixer-drink {
+      background: $aside-list-item;
+      text-align: center;
+
+      position: relative;
+      width: 100%;   /* definite width (any) required */
+      height: 100%;  /* definite height (any) required */
+    }
+    .dmixer-title {
+      font-size: 1.1em;
+      line-height: 1.2em;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform(translate(-50%, -50%));
+    }
+  }
+  @include respond-to(desktop-and-below) {
+    &.dmixer-grid-aside {
+      .dmixer-title {
+        font-size: 0.8em;
+      }
+    }
+    
+  }
+  @include respond-to(tablet-landscape-and-below) {
+  }
+  @include respond-to(tablet-landscape-and-below) {
+    &.dmixer-grid-main {
+      padding: 0;
+    }
+  }
+  @include respond-to(tablet-and-below) {
+
+    .spirits-sprite{
+      background: url('../images/spirits-md.png') no-repeat;
+      height: 190px;
+    }
+    .spirits-beer-ale {
+      background-position: 0 100%;
+      width: 51px;
+    }
+    .spirits-bourbon {
+      background-position: -51px 100%;
+      width: 79px;
+    }
+    .spirits-brandy {
+      background-position: -130px 100%;
+      width: 75px;
+    }
+    .spirits-gin {
+      background-position: -206px 100%;
+      width: 60px;
+    }
+    .spirits-liqueur {
+      background-position: -267px 100%;
+      width: 74px;
+    }
+    .spirits-rum {
+      background-position: -342px 100%;
+      width: 58px;
+    }
+    .spirits-scotch {
+      background-position: -402px 100%;
+      width: 64px;
+    }
+    .spirits-soda {
+      background-position: -466px 100%;
+      width: 41px;
+    }
+    .spirits-tequila {
+      background-position: -512px 100%;
+      width: 90px;
+    }
+    .spirits-vodka {
+      background-position: -607px 100%;
+      width: 59px;
+    }
+    .spirits-whiskey {
+      background-position: -667px 100%;
+      width: 112px;
+    }
+    .spirits-wine {
+      background-position: -780px 100%;
+      width: 69px;
+    } 
+    &.dmixer-grid-main {
+      .col-lg-3 {
+        padding-bottom: 33.3333%;
+      }
+    }
+  }
+  @include respond-to(tablet-portrait-and-below) {
+    .dmixer-wrap {
+      padding: 1.47% 1.47% 1.93%; // padding: 2px;
+    }
+    .dmixer-item i {
+      opacity: 1;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    &.dmixer-grid-main {
+
+      .row {
+        padding-bottom: 6px;
+      }
+      .col-lg-3 {
+        padding-bottom: 33%;
+      }
+      .dmixer-drink-description {
+        bottom: 23%;
+      }
+    }
+    .spirits-sprite, .spirits-beer-ale, .spirits-bourbon, .spirits-brandy, .spirits-gin, .spirits-liqueur, .spirits-rum, .spirits-scotch, .spirits-soda, .spirits-tequila, .spirits-vodka, .spirits-whiskey, .spirits-wine {
+      background: url('../images/spirits-xs-s7035dd1a6a.png') no-repeat;
+    }
+    .spirits-beer-ale {
+      background-position: 0 0;
+      height: 85px;
+      width: 26px;
+    }
+    .spirits-bourbon {
+      background-position: -30px 0;
+      height: 85px;
+      width: 34px;
+    }
+    .spirits-brandy {
+      background-position: -68px 0;
+      height: 85px;
+      width: 33px;
+    }
+    .spirits-gin {
+      background-position: -105px 0;
+      height: 85px;
+      width: 26px;
+    }
+    .spirits-liqueur {
+      background-position: -135px 0;
+      height: 85px;
+      width: 38px;
+    }
+    .spirits-rum {
+      background-position: -177px 0;
+      height: 85px;
+      width: 26px;
+    }
+    .spirits-scotch {
+      background-position: -207px 0;
+      height: 85px;
+      width: 28px;
+    }
+    .spirits-soda {
+      background-position: -239px 0;
+      height: 85px;
+      width: 21px;
+    }
+    .spirits-tequila {
+      background-position: -264px 0;
+      height: 85px;
+      width: 50px;
+    }
+    .spirits-vodka {
+      background-position: -318px 0;
+      height: 85px;
+      width: 26px;
+    }
+    .spirits-whiskey {
+      background-position: -348px 0;
+      height: 85px;
+      width: 59px;
+    }
+    .spirits-wine {
+      background-position: -411px 0;
+      height: 85px;
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+include ./mixins
+
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    
+    block title
+      title Drinks Mixer
+    
+    block description
+      meta(name='description', content='')
+      meta(name='viewport', content='width=device-width, initial-scale=1')
+      link(rel='stylesheet', href='css/screen.css')
+      
+    +ie('if IE 8')
+      link(rel='stylesheet', href='/stylesheets/ie8.css')
+
+    +ie('if IE 9')
+      link(rel='stylesheet', href='/stylesheets/ie9.css')
+  
+  body
+    
+    include blocks/header
+
+    block content
+      
+    include blocks/footer
+
+    block js-libs
+      script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+      script window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
+      script(src='build/scripts.min.js')
