@@ -21,15 +21,52 @@
     &:hover {
         font-size: 40px;
     }
+    .dropdown-toggle[aria-expanded="false"],
     .navbar-toggle[aria-expanded="false"] & {
-      &:before {
-        @include transform (rotate(0deg));
-      }
+        &:before {
+            @include transform (rotate(0deg));
+        }
     }
+    .dropdown-toggle[aria-expanded="true"] &,
     .navbar-toggle[aria-expanded="true"] & {
-      &:before {
-        @include transform (rotate(180deg));
-      }
-    
+        &:before {
+            @include transform (rotate(180deg));
+        }
     }
+    .dropdown-toggle & {
+        &:before {
+            font-size: 18px;
+        }
+    }
+}
+
+.icon-search {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    .dmixer-main-search & {
+        font-size: 36px;
+        line-height: 36px;
+        position: absolute;
+        top: 24px;
+        right: 90px;
+    }
+    .dmixer-main-search .dmixer-more-menu & {
+        left: 2px;
+        top: 16px;
+        width: 60px;
+        height: 50px;
+        &:before {
+            color: #817a78;
+            font-size: 1.4em;
+        }
+    } 
+}
+.gliphicon-close {
+    display: block;
+    margin: auto;
+    color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    @include text-shadow(none);
 }

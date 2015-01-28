@@ -18,7 +18,7 @@
     <nav role="navigation" class="navbar navbar-default navbar-fixed-top dmixer-main-navbar">
         <div class="container ">
 
-            <div class="navbar-header">
+            <div class="navbar-header dmixer-logo-wrapper">
 
                 <h1 class="navbar-logo">
                     <a href="#" class="navbar-brand">Drinks Mixer<img alt="Drinks Mixer" src="images/layout/DM-logo-lrg.png"></a>
@@ -39,7 +39,7 @@
                     </li>
                     <ul class="nav navbar-left">
                         <li class="dropdown dmixer-menu-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle hidden-phone">More<b class="icon-more"></b></a>
-                            <ul role="menu" class="dropdown-menu more-menu">
+                            <ul role="menu" class="dropdown-menu dmixer-more-menu">
                                 <ul class="list-inline">
                                     <li class="dmixer-menu-item"><a href="#">Punches</a>
                                     </li>
@@ -99,27 +99,28 @@
                 </form>-->
             </div>
             <ul class="nav navbar-nav navbar-right dmixer-user-profile">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle dmixer-user-link">
-                        <img src="images/authors/SomeAuthor.png" alt="SomeAuthor" class="dmixer-user-image">
-                    </a>
-                    <!-- <ul role="menu" class="dropdown-menu">
-                            <form role="search" class="navbar-form dmixer-search dmixer-search-header dmixer-search-main">
-                                <button type="submit" class="btn btn-default"></button>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Search" class="form-control">
-                                </div>
-                            </form>
-                        </ul> -->
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle dmixer-user-link">
+                    <img src="images/authors/SomeAuthor.png" alt="SomeAuthor" class="dmixer-user-image">
+                </a>
+                <!-- <ul role="menu" class="dropdown-menu">
+                    <form role="search" class="navbar-form dmixer-search dmixer-search-main">
+                        <button type="submit" class="btn btn-default"></button>
+                        <div class="form-group">
+                            <input type="text" placeholder="Search" class="form-control">
+                        </div>
+                    </form>
+                </ul> -->
                 </ul>
                 <ul class="nav navbar-nav navbar-right dmixer-main-search">
                     <li class="dropdown dmixer-search-item">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                            <i class="icon-search"></i>
+                            <i class="icon-search" id="button-modal"></i>
                         </a>
-                        <ul role="menu" class="dropdown-menu more-menu hidden-phone">
-                            <form role="search" class="navbar-form dmixer-search dmixer-search-header dmixer-search-main">
+                        <ul role="menu" class="dropdown-menu dmixer-more-menu hidden-phone">
+                            <form role="search" class="navbar-form dmixer-search dmixer-search-form">
                                 <button type="submit" class="btn btn-default"></button>
                                 <div class="form-group">
+                                    <i class="icon-search"></i>
                                     <input type="text" placeholder="Search" class="form-control">
                                 </div>
                             </form>
@@ -1100,49 +1101,38 @@
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
     </script>-->
+
+
+    <!-- <section class="dmixer-search-mobile">
+        <a href="" class="dmixer-search-close"></a>
+
+        
+
+    </section> -->
+    
+    <div id="modal-id" class="modal dmixer-search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="gliphicon-close">x</i></button></div>
+            <div class="modal-content">
+                
+                <div class="modal-body">
+                    <form action="" class="dmixer-search-form">
+                        <button class="dmixer-search-button" type="submit">
+                            <em class="icon-search hvr-push"></em>
+                            <span class="icon-search-label">Search</span>
+                        </button>
+                       <!--  <input type="text" class="dmixer-search-input" placeholder="Orange juice" /> -->
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/vendor/jquery.min.js"></script>
     <script src="build/scripts.min.js"></script>
     <script>
     $(document).ready(function() {
-
-        /* Padding fixed height Navbar with open Bootstrap dropdown */
-
-        var animateNavbarHeight = function(additionalHeight) {
-            $('.dmixer-main-navbar').css({
-                paddingBottom: additionalHeight
-            });
-        }
-
-        var removeHeaderBottom = function() {
-            if ($('.dmixer-menu-item').hasClass('open'))
-                animateNavbarHeight(0)
-
-            if ($('.dmixer-search-item').hasClass('open'))
-                animateNavbarHeight(0)
-        }
-
-        var addHeaderBottom = function(moreMenuHeight) {
-            if ($('.dmixer-menu-item').not('.open'))
-                animateNavbarHeight(moreMenuHeight)
-        }
-
-        $('body').on("click", function() {
-            removeHeaderBottom();
-        });
-
-        $('.dmixer-main-menu .dropdown-toggle').on("click", (function(event) {
-            /*event.stopPropagation();*/
-            var moreMenuHeight = $('.more-menu').height();
-            addHeaderBottom(moreMenuHeight);
-
-        }));
-
-        $('.dmixer-main-search .dropdown-toggle').on("click", (function(event) {
-            /*event.stopPropagation();*/
-            var moreMenuHeight = $('.dmixer-main-search .more-menu').height();
-            addHeaderBottom(moreMenuHeight);
-
-        }));
     });
     </script>
 </body>

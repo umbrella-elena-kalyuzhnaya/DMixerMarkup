@@ -1,129 +1,124 @@
 .social-block {
-  margin-bottom: 16px;
-  position: relative;
-  .social-title {
-    @include bordered-block();
-    margin-top: 20px;
-    margin-bottom: 8px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.3125em;
-    line-height: .75;
-    color: $block-title;
-    letter-spacing: 0.2em;
-  }
-  @include respond-to(desktop-and-below) {}
+    margin-bottom: 16px;
+    position: relative;
     .social-title {
-      line-height: 1em;
+        @include bordered-block();
+        margin-top: 20px;
+        margin-bottom: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3125em;
+        line-height: .75;
+        color: $block-title;
+        letter-spacing: 0.2em;
     }
-  @include respond-to(tablet-landscape-and-below) {
-    &.social-block-navbar {
-        .dmixer-subscribe {
-            padding-bottom: 10px;
+    @include respond-to(desktop-and-below) {} .social-title {
+        line-height: 1em;
+    }
+    @include respond-to(tablet-landscape-and-below) {
+        &.social-block-navbar {
+            .dmixer-subscribe {
+                padding-bottom: 10px;
+            }
+            &:after {
+                content: "";
+                display: block;
+                width: 94%;
+                height: 2px;
+                background: #fafafa;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+                left: 0;
+                margin: auto;
+            }
         }
-        &:after {
-          content: "";
-          display: block;
-          width: 94%;
-          height: 2px;
-          background: #fafafa;
-          position: absolute;
-          bottom: 0px;
-          right: 0;
-          left: 0;
-          margin: auto;
-      }
-    } 
-  }
-  @include respond-to(tablet-portrait-and-below) {
-    margin-bottom: 10px;
-    margin-top: 20px;
-      
-    
-    .social-title {
-      margin-top: 16px;
-      font-size: 1.25em;
-      line-height: 1em;
-      &:before {
+    }
+    @include respond-to(tablet-portrait-and-below) {
         margin-bottom: 10px;
-        width: 94%;
-      }
+        margin-top: 20px;
+        .social-title {
+            margin-top: 16px;
+            font-size: 1.25em;
+            line-height: 1em;
+            &:before {
+                margin-bottom: 10px;
+                width: 94%;
+            }
+        }
+        .social-icons {
+            margin-left: 0;
+            line-height: 22px;
+        }
+        .dmixer-subscribe {
+            width: auto;
+            .dmixer-subscribe-text {
+                font-size: 1em;
+                max-width: 230px;
+            }
+            .dmixer-subscribe-email {
+                width: 40px;
+                height: 40px;
+                background-size: 100%;
+                margin-right: 5%;
+            }
+        }
     }
-    .social-icons {
-      margin-left: 0;
-      line-height: 22px;
-    }
-    .dmixer-subscribe {
-      width: auto;
-      .dmixer-subscribe-text {
-        font-size: 1em;
-        max-width: 230px;
-      }
-      .dmixer-subscribe-email {
-        width: 40px;
-        height: 40px;
-        background-size: 100%;
-        margin-right: 5%;
-      }
-    }
-  }
-  @include respond-to(mobile-portrait-and-below) {
-    
-  } 
+    @include respond-to(mobile-portrait-and-below) {}
 }
 .social-icons {
-  padding: 0;
-  margin-bottom: 0;
-  line-height: 20px;
-  cursor: default;
-  @include text-align-justify();
-  @include respond-to(desktop-large-and-below){
-    width: 100%;
-    margin: auto;
-  }
-  .social-item {
-    display: inline-block;
-    width: calc(20% - 6px);
-    height: 40px;
-    a {
-      display: block;
-      opacity: 1;
-      @include transition(all .5s);
-       &:hover {
-        opacity: 0.7;
-      }
-    }
-    i {
-      display: block;
-      color:#fff;
-      font-size: 2em;
-      text-align: center;
-      height: 50px;
-      line-height: 50px; 
-      position: relative;
-      &:before {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+    cursor: default;
+    @include text-align-justify();
+    @include respond-to(desktop-large-and-below) {
+        width: 100%;
         margin: auto;
-      }
     }
-    .ico-sc-fb {
-      background: $social-fb;
+    .social-item {
+        display: inline-block;
+        width: calc(20% - 6px);
+        height: 40px;
+        a {
+            display: block;
+            opacity: 1;
+            @include transition(all .5s);
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+        i {
+            display: block;
+            color: #fff;
+            font-size: 2em;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            position: relative;
+            &:before {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+        .ico-sc-fb {
+            background: $social-fb;
+        }
+        .ico-sc-tw {
+            background: $social-tw;
+        }
+        .ico-sc-pin {
+            background: $social-pin;
+        }
+        .ico-sc-gplus {
+            background: $social-gplus;
+        }
+        .ico-sc-like {
+            background: $social-like;
+        }
     }
-    .ico-sc-tw {
-      background: $social-tw;
-    }
-    .ico-sc-pin {
-      background: $social-pin;
-    }
-    .ico-sc-gplus {
-      background: $social-gplus;
-    }
-    .ico-sc-like {
-      background: $social-like;
-    }
-  }
 }
