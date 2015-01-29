@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/screen.css">
+
+    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/bd3ed773-2ae3-4f5a-9fc9-46ef3691f321.css"/>
     <!--[if IE 8]>
     <link rel="stylesheet" href="/stylesheets/ie8.css"><![endif]-->
     <!--[if IE 9]>
@@ -29,7 +31,7 @@
 
             <div class="collapse navbar-collapse collapse" id="dmixer-navbar-collapsed">
                 <ul class="nav navbar-nav dmixer-main-menu">
-                    <li class="dmixer-menu-item"><a href="#">Coctails</a>
+                    <li class="dmixer-menu-item"><a href="#">Cocktails</a>
                     </li>
                     <li class="dmixer-menu-item"><a href="#">Shots</a>
                     </li>
@@ -38,7 +40,7 @@
                     <li class="dmixer-menu-item"><a href="#">Non-alcoholic</a>
                     </li>
                     <ul class="nav navbar-left">
-                        <li class="dropdown dmixer-menu-item"><a href="#" data-toggle="dropdown"  data-expanded="true" class="dropdown-toggle hidden-phone">More<b class="icon-more"  data-expanded="true"></b></a>
+                        <li class="dropdown dmixer-menu-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle hidden-phone">More<b class="icon-more"></b></a>
                             <ul role="menu" class="dropdown-menu dmixer-more-menu">
                                 <ul class="list-inline">
                                     <li class="dmixer-menu-item"><a href="#">Punches</a>
@@ -114,7 +116,7 @@
                 <ul class="nav navbar-nav navbar-right dmixer-main-search">
                     <li class="dropdown dmixer-search-item">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                            <i class="icon-search" data-expanded="true" id="button-modal"></i>
+                            <i class="icon-search" id="button-modal"></i>
                         </a>
                         <ul role="menu" class="dropdown-menu dmixer-more-menu hidden-phone">
                             <form role="search" class="navbar-form dmixer-search dmixer-search-form">
@@ -134,7 +136,7 @@
             <!-- <div class="header-ad-slot">
                 <img src="images/header-ad-slot.png" alt="Header AD">
             </div> -->
-            <section class="general-search">
+            <section class="general-search hidden-phone">
                 <form role="search" class="navbar-form dmixer-search">
                     <button type="submit" class="btn btn-default"></button>
                     <div class="form-group">
@@ -142,11 +144,17 @@
                     </div>
                 </form>
             </section>
-            <!-- <section class="general-slider">
+            <section class="general-slider">
                 <div class="dmixer-slider">
-                    <!-- <img alt="Alabama slammer" src="images/AlabamaSlammer.jpg">
+                <img alt="Alabama slammer" src="images/AlabamaSlammer.jpg">
                     <ul id="dmixer-slider">
                         <li class="dmixer-slider-item">
+                          <!-- <img src="images/AlabamaSlammer.jpg" width="300" /> -->
+                          <h3 class="dmixer-slider-subject">Drink of the month</h3>
+                          <strong class="dmixer-slider-title">Alabama Slammer</strong>
+                        </li>
+                        
+                        <!-- <li class="dmixer-slider-item">
                           <img src="images/AlabamaSlammer.jpg" width="300" />
                           <h3 class="dmixer-slider-subject">Drink of the month</h3>
                           <strong class="dmixer-slider-title">Alabama Slammer</strong>
@@ -156,19 +164,13 @@
                           <img src="images/AlabamaSlammer.jpg" width="300" />
                           <h3 class="dmixer-slider-subject">Drink of the month</h3>
                           <strong class="dmixer-slider-title">Alabama Slammer</strong>
-                        </li>
+                        </li> -->
                         
-                        <li class="dmixer-slider-item">
+                       <!--  <li class="dmixer-slider-item">
                           <img src="images/AlabamaSlammer.jpg" width="300" />
                           <h3 class="dmixer-slider-subject">Drink of the month</h3>
                           <strong class="dmixer-slider-title">Alabama Slammer</strong>
-                        </li>
-                        
-                        <li class="dmixer-slider-item">
-                          <img src="images/AlabamaSlammer.jpg" width="300" />
-                          <h3 class="dmixer-slider-subject">Drink of the month</h3>
-                          <strong class="dmixer-slider-title">Alabama Slammer</strong>
-                        </li>
+                        </li> -->
                         
                     </ul>
                 </div>
@@ -196,8 +198,8 @@
                         <span class="dmixer-more-text">More drinks<i class="icon-common-right-arrow"></i></span>
                     </a>
                 </div>
-            </section> -->
-            <!-- <section class="general-carousel">
+            </section> 
+            <section class="general-carousel">
                 <h2>From the bar</h2>
                 <div class="carousel-wrapper">
                     <div id="carousel" class="post-carousel">
@@ -230,10 +232,10 @@
                                 </div>
                             </li> 
                         </ul>
-                        <!-- prev and next button<a id="prev" href="#" class="prev icons-left-advance-arrow hvr-buzz">&lt;             </a><a id="next" href="#" class="next icons-right-advance-arrow hvr-buzz">&gt;</a>
+                        <!-- prev and next button--><a id="prev" href="#" class="prev icons-left-advance-arrow hvr-buzz">&lt;             </a><a id="next" href="#" class="next icons-right-advance-arrow hvr-buzz">&gt;</a>
                     </div><a href="#" class="view-more">View all articles</a>
                 </div>
-            </section> -->
+            </section>
             <section class="general-panel">
                 <section class="col-xs-12 col-md-9 dmixer-grid dmixer-grid-main">
                     <h2 class="hidden-phone">Search by spirit</h2>
@@ -459,7 +461,7 @@
                     </aside>
                 </aside>
             </section>
-            <!-- <section class="search-by-letter">
+            <section class="search-by-letter">
                 <div class="common-block">
                     <div class="common-block-title">Search drinks by letter</div>
                     <div class="common-block-content">
@@ -519,8 +521,8 @@
                         </ul>
                     </div>
                 </div>
-            </section> -->
-            <!-- <section class="trending-drinks">
+            </section>
+            <section class="trending-drinks">
           <h2>Top picks</h2>
           <section class="dmixer-grid">
             <div class="row">
@@ -528,9 +530,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-caribou-lou"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">caribou lou</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -538,9 +540,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-jager-bomb"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">jager bomb</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -548,9 +550,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-irish-car-bomb"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">irish car bomb</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -558,9 +560,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-long-tea"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">long island iced tea</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -568,9 +570,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-it-apple-martini"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">italian apple martini</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -578,9 +580,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-amaretto-sour"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">amaretto sour</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -588,9 +590,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-mojito-diablo"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">mojito diablo</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -598,9 +600,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-jungle-juice"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">jungle juice</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -608,9 +610,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-mojito"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">mojito</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -618,9 +620,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-red-headed-slut"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">red headed slut</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -628,9 +630,9 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-buttery-nipple"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">buttery nipple</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -638,21 +640,21 @@
                 <div class="dmixer-wrap">
                   <div class="dmixer-drink">
                     <header><i class="icon-ice-bomb"></i></header>
-                    <footer>
+                    <span class="dmixer-drink-description">
                       <h4 class="dmixer-title">ice bomb</h4>
-                    </footer>
+                    </span>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-        </section> -->
+        </section> 
             <!--top-picks-->
         </section>
         <!-- end general-conntent -->
         <section class="related-content">
             <!-- main-carousel-container-->
-            <!-- <section class="main-carousel">
+        <section class="main-carousel">
           <h2>From the bar</h2>
           <div class="carousel-wrapper">
             <div id="carousel" class="post-carousel"> 
@@ -679,12 +681,12 @@
                   </div>
                 </li>
               </ul>
-              <!-- prev and next button<a id="prev" href="#" class="prev">&lt;             </a><a id="next" href="#" class="next">&gt;</a>
+              <!-- prev and next button--><a id="prev" href="#" class="prev">&lt;             </a><a id="next" href="#" class="next">&gt;</a>
             </div><a href="#" class="view-more">View all articles</a>
           </div>
-        </section> -->
+        </section>
 
-            <!-- <section class="related-blocks">
+        <section class="related-blocks">
                 <section class="col-xs-12 col-lg-9 dmixer-grid dmixer-drink-list">
                     <h2>Popular drinks</h2>
                     <ul class="post posts-similar striped-posts">
@@ -831,11 +833,11 @@
                     </div>
                     
                 </aside>
-            </section> -->
+            </section>
             <!-- end related-blocks -->
 
             <!-- <div class="adv-full-screen"><img src="images/choose-your-holiday.jpg" alt="Choose your holiday"></div> -->
-            <!-- <section class="dmixer-ocassional-block">
+            <section class="dmixer-ocassional-block">
                 <h2>Ocassional  drinks</h2>
                 <section class="dmixer-grid dmixer-grid-main">
                     <div class="row">
@@ -845,9 +847,9 @@
                                     <header>
                                         <i class="icon-"></i>
                                         <img src="images/cocktails/Tropical.jpg" alt="Tropical">
-                                        <footer>
+                                        <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Tropical</h4><span class="dmixer-subtitle">104 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header>
                                 </a>
                             </div>
@@ -857,9 +859,9 @@
                                 <a href="#" class="dmixer-drink hvr-zoom">
                                     <header>
                                         <img src="images/cocktails/Holidays.jpg" alt="Holidays">
-                                        <footer>
+                                        <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Holidays</h4><span class="dmixer-subtitle">89 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header>
                                 </a>
                             </div>
@@ -869,9 +871,9 @@
                                 <a href="#" class="dmixer-drink hvr-zoom">
                                     <header>
                                         <img src="images/cocktails/Romantic.jpg" alt="Romantic">
-                                        <footer>
+                                        <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Romantic</h4><span class="dmixer-subtitle">41 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header> 
                                 </a>
                             </div>
@@ -881,9 +883,9 @@
                                 <a href="#" class="dmixer-drink hvr-zoom">
                                     <header>
                                         <img src="images/cocktails/Fruity.jpg" alt="Fruity">
-                                            <footer>
+                                            <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Fruity</h4><span class="dmixer-subtitle">166 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header>
                                 </a>
                             </div>
@@ -893,9 +895,9 @@
                                 <a href="#" class="dmixer-drink hvr-zoom">
                                     <header>
                                         <img src="images/cocktails/Blue-colored.jpg" alt="Blue colored">
-                                        <footer>
+                                        <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Blue-colored</h4><span class="dmixer-subtitle">53 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header>
                                 </a>
                             </div>
@@ -905,9 +907,9 @@
                                 <a href="#" class="dmixer-drink hvr-zoom">
                                     <header>
                                         <img src="images/cocktails/Frozen.jpg" alt="Frozen">
-                                        <footer>
+                                        <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Frozen</h4><span class="dmixer-subtitle">32 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header>
                                 </a>
                             </div>
@@ -917,9 +919,9 @@
                                 <a href="#" class="dmixer-drink hvr-zoom">
                                     <header>
                                         <img src="images/cocktails/Morning-time.jpg" alt="Morning time">
-                                        <footer>
+                                        <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Morning time</h4><span class="dmixer-subtitle">78 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header>
                                 </a>
                             </div>
@@ -929,9 +931,9 @@
                                 <a href="#" class="dmixer-drink hvr-zoom">
                                     <header>
                                         <img src="images/cocktails/Classic.jpg" alt="Classic">
-                                        <footer>
+                                        <sapn class="dmixer-drink-description">
                                             <h4 class="dmixer-title">Classic</h4><span class="dmixer-subtitle">118 recepies</span>
-                                        </footer>
+                                        </sapn>
                                     </header>
                                     
                                 </a>
@@ -939,11 +941,11 @@
                         </div>
                     </div>
                 </section>
-                <!-- end dmixer-grid 
-            </section> -->
+                <!-- end dmixer-grid -->
+            </section> 
             <!-- end dmixer-ocassional-block -->
 
-            <!-- <section class="related-blocks">
+            <section class="related-blocks">
                 <section class="col-xs-12 col-lg-9 dmixer-grid dmixer-drink-list">
                     <h2>Popular drinks</h2>
                     <ul class="post posts-similar striped-posts">
@@ -1090,7 +1092,7 @@
                     </div>
                     
                 </aside>
-            </section> -->
+            </section> 
             <!-- end related-blocks -->
 
         </section>
@@ -1112,16 +1114,16 @@
     
     <div id="modal-id" class="modal dmixer-search-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="gliphicon-close" id="closed">x</i></button></div>
+            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-close hvr-rotate"></i></button></div>
             <div class="modal-content">
                 
                 <div class="modal-body">
                     <form action="" class="dmixer-search-form">
                         <button class="dmixer-search-button" type="submit">
-                            <em class="icon-search hvr-push"></em>
+                            <em class="icon-search"></em>
                             <span class="icon-search-label">Search</span>
                         </button>
-                       <!--  <input type="text" class="dmixer-search-input" placeholder="Orange juice" /> -->
+                        <input type="text" class="dmixer-search-input" placeholder="Orange juice" />
 
                     </form>
                 </div>
@@ -1130,7 +1132,7 @@
     </div>
 
     <script src="js/vendor/jquery.min.js"></script>
-    <script src="js-build/scripts.js"></script>
+    <script src="build/scripts.min.js"></script>
     <script>
     $(document).ready(function() {
     });

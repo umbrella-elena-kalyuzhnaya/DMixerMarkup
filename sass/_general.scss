@@ -8,7 +8,7 @@ body {
     background: $main-bg;
     color: $main-text;
     font-size: $base-font-size;
-    font-family: $base-font-family;
+    font-family: $base-font-book;
     line-height: $base-line-height;
 }
 html, body {
@@ -63,7 +63,11 @@ h1 {
     font-size: 2.5em;
 }
 h2 {
-    font-size: 2.4em;
+    font-size: 2.5em;
+    font-family: $base-font-medium;
+    line-height: 1.333em;
+    letter-spacing: 0.24em;
+    padding: 0 0 0 2.17%;
 }
 h3 {
     font-size: 1.8em;
@@ -211,11 +215,11 @@ h4 {
     }
     @include respond-to(desktop-and-below) {
         .general-panel {
-            .dmixer-grid.dmixer-grid-main {
+            /* .dmixer-grid.dmixer-grid-main {
                 .dmixer-title {
                     font-size: 1.2em;
                 }
-            }
+            } */
             .dmixer-grid.dmixer-grid-aside {
                 .dmixer-title {
                     font-size: .8em;
@@ -265,8 +269,9 @@ h4 {
         background: $common-block-title;
         color: $item-title-text;
         font-size: 1.125em;
-        line-height: 0.8em;
-        padding: 4px 0 10px;
+        line-height: 1em;
+        padding: 5px 0 8px;
+        letter-spacing: 0.2em;
     }
     .common-block-content {
         background: $common-block-subtitle;
@@ -284,7 +289,7 @@ h4 {
         outline: none;
         text-transform: uppercase;
         letter-spacing: .3em;
-        padding: 8px 26px;
+        padding: 8px 34px;
     }
     @include respond-to(tablet-portrait-and-below) {
         .common-block-title {
@@ -320,20 +325,18 @@ h4 {
     }
     .dmixer-subscribe-text {
         color: #fff;
-        text-transform: lowercase;
         display: inline-block;
         vertical-align: top;
         max-width: 240px;
         text-align: left;
-        font-size: 1.125em;
-        /* 18px/16px  */
-        
-        line-height: 1.2em;
-        /* 21px/24px  */
+        font-size: 1.125em; /* 18px/16px  */
+        line-height: 1.2em; /* 21px/24px  */
+        letter-spacing: .02em;
     }
 }
 .dmixer-drink-list {
     margin-top: 4.286%;
+    padding-bottom: 0;
     .posts-similar {
         margin: 0;
     }
@@ -346,6 +349,9 @@ h4 {
     margin-top: 4.286%;
     .dmixer-grid {
         padding: 0;
+        .col-lg-3 {
+          padding-bottom: 28.4%;
+        }
     }
     .dmixer-wrap {
         img {

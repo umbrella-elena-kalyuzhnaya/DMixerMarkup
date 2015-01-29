@@ -61,6 +61,8 @@ $(document).ready(function() {
             if ($(e.target).attr('data-expanded')) ;
             else
             removeHeaderBottom();
+
+
         });
 
         $('.dmixer-main-menu .dropdown-toggle').on("click", (function(event) {
@@ -96,51 +98,42 @@ $(document).ready(function() {
     $(window).on("resize", function() {
 
         if (isBreakPoint(320)) {
-            $("#button-modal").click(function() {
+            /*$("#button-modal").click(function() {
                 Show("modal-id");
             });
-            console.log(320);
+            console.log(320);*/
 
         }
 
         if (isBreakPoint(480)) {
-            $("#button-modal").click(function() {
+            /*$("#button-modal").click(function() {
                 Show("modal-id");
             });
-            console.log(480);
+            console.log(480);*/
 
         }
         if (isBreakPoint(768)) {
 
-            $("#button-modal").click(function() {
+            /*$("#button-modal").click(function() {
                 Show("modal-id");
             });
-            console.log(768);
+            console.log(768);*/
 
         }
 
         if (isBreakPoint(1024)) {
+            
             addDropdownHeight(0);
-            /*$('body').attr('class',"");*/
-            //$("#modal-id").attr('aria-hidden','true').css('display','none');
-            document.getElementById("closed").click();
-            console.log(1024);
         }
 
         if (isBreakPoint(1200)) {
+            
             addDropdownHeight(0);
-            /*$('body').attr('class',"");*/
-            //$("#modal-id").attr('aria-hidden','true').css('display','none');
-            document.getElementById("closed").click();
-            console.log(1200);
         }
 
         if (isBreakPoint(2600)) {
+            
             addDropdownHeight(0);
-            /*$('body').attr('class',"");
-            $("#modal-id").attr('aria-hidden','true').css('display','none');*/
-            document.getElementById("closed").click();
-            console.log(2600);
         }
 
     }).resize();
@@ -148,6 +141,7 @@ $(document).ready(function() {
     //Fix modal mobile Boostrap 3
     function Show(id) {
         //Fix CSS
+        
         $(".modal-footer").css({
             "padding": "19px 20px 20px",
             "margin-top": "15px",
@@ -163,6 +157,8 @@ $(document).ready(function() {
             h3 = $("#" + id + ">.modal-dialog>.modal-content>.modal-body").height();
             h4 = h2 - (h1 - h3);
             if ($(window).width() >= 768) {
+
+                
                 if (h1 > h2) {
                     $("#" + id + ">.modal-dialog>.modal-content>.modal-body").height(h4);
                 }
