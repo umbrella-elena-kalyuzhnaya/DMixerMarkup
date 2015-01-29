@@ -33,23 +33,12 @@
             border-radius: 0;
             margin-left: 83px;
             letter-spacing: 1em;
-            font-size: 3.45em;
-            font-family: $base-font-light;
-            line-height: 50px;
-            height: auto;
+            font-size: 3.5em;
+            line-height: 56px;
+            height: 56px;
             text-align: left;
             padding-left: 0;
             color: #fafafa;
-            &:after {
-                content: "";
-                display: block;
-                width: 100%;
-                height: 2px;
-                background: #fafafa;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
         }
     }
     > li {
@@ -110,14 +99,6 @@
         top: 0;
         right: 0;
         z-index: 20;
-        button {
-          outline: none;  
-        }
-        .icon-close {
-            text-shadow: none;
-            color: #fff;
-            outline: none;
-        }
     }
     .modal-body {
         min-height: 170px;
@@ -125,11 +106,10 @@
     .dmixer-search-button {
         background: none;
         border: none;
-        width: 20%;
+        width: 80%;
         margin: auto;
         display: block;
         padding: 0;
-        outline: none;
         .icon-search {
             display: block;
             font-size: 26px;
@@ -156,8 +136,8 @@
         border-bottom: 2px solid #fafafa;
         border-radius: 0;
         font-size: 1.5em;
-        line-height: 28px;
-        height: 28px;
+        line-height: 44px;
+        height: 36px;
         text-align: center;
         padding-left: 0;
         color: #fafafa;

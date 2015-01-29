@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'social-set';
-  src:url('../fonts/socials/icomoon.eot?-i34r4z');
-  src:url('../fonts/socials/icomoon.eot?#iefix-i34r4z') format('embedded-opentype'),
-    url('../fonts/socials/icomoon.woff?-i34r4z') format('woff'),
-    url('../fonts/socials/icomoon.ttf?-i34r4z') format('truetype'),
-    url('../fonts/socials/icomoon.svg?-i34r4z#social-set') format('svg');
+  src:url('../fonts/socials/icomoon.eot?-8s3h64');
+  src:url('../fonts/socials/icomoon.eot?#iefix-8s3h64') format('embedded-opentype'),
+    url('../fonts/socials/icomoon.woff?-8s3h64') format('woff'),
+    url('../fonts/socials/icomoon.ttf?-8s3h64') format('truetype'),
+    url('../fonts/socials/icomoon.svg?-8s3h64#icomoon') format('svg');
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   src:url('../fonts/icons/icomoon.eot?#iefixesy2mx') format('embedded-opentype'),
     url('../fonts/icons/icomoon.woff?esy2mx') format('woff'),
     url('../fonts/icons/icomoon.ttf?esy2mx') format('truetype'),
-    url('../fonts/icons/icomoon.svg?esy2mx#icon-set') format('svg');
+    url('../fonts/icons/icomoon.svg?esy2mx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -49,8 +49,6 @@
   content: "\e609";
 }
 
-
-
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icon-set';
   speak: none;
@@ -65,15 +63,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-close:before {
-  content: "\e608";
-}
-
 .icon-cocktail:before {
   content: "\e600";
 }
 
-.icon-common-left-arrow:before {
+.icon-common-right-arrow:before {
   content: "\e601";
 }
 

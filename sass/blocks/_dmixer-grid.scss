@@ -46,6 +46,7 @@
     line-height: 1em;
     text-transform: uppercase;
     margin-bottom: 0;
+    padding-right: 6px;
     letter-spacing: .3em;
 
     position: relative;
@@ -57,8 +58,7 @@
     text-transform: uppercase;
     color: #fff;
     display: block;
-    padding-top: 8px;
-    letter-spacing: .3em;
+    padding-top: 12px;
   }
   
   &.dmixer-grid-main {
@@ -70,7 +70,7 @@
       padding-bottom: 29.4%;
     } 
     .dmixer-title {
-      /* max-width: 230px;  */
+      max-width: 230px; 
       padding-left: 6px;
       padding-right: 6px;
       margin: auto;
@@ -121,20 +121,10 @@
     
   }
   @include respond-to(tablet-landscape-and-below) {
-
   }
   @include respond-to(tablet-landscape-and-below) {
-    &.dmixer-grid-aside {
-      .dmixer-title {
-        font-size: 0.8em;
-      }
-    }
     &.dmixer-grid-main {
       padding: 0;
-      .dmixer-title {
-        font-size: 0.8em;
-        letter-spacing: .2em;
-      }
     }
   }
   @include respond-to(tablet-and-below) {

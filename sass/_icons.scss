@@ -12,8 +12,6 @@
     height: 18px;
     display: inline-block;
     vertical-align: middle;
-    position: relative;
-    right: -10px;
     &:before {
         display: block;
         font-size: 12px;
@@ -48,7 +46,7 @@
         line-height: 36px;
         position: absolute;
         top: 24px;
-        right: 108px;
+        right: 90px;
     }
     .dmixer-main-search .dmixer-more-menu & {
         left: 2px;
@@ -60,4 +58,12 @@
             font-size: 1.4em;
         }
     } 
+}
+.gliphicon-close {
+    display: block;
+    margin: auto;
+    color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    @include text-shadow(none);
 }
