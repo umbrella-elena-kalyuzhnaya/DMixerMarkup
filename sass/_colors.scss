@@ -1,44 +1,58 @@
 /* VARIABLES
 ----------------------------------------------------*/
+/* Base Fonts from fast.fonts.net */
 
+$base-font-book: 'Futura W02 Book', sans-serif;
+$base-font-medium: 'Futura W02 Medium', sans-serif;
+$base-font-light: 'Futura W02 Light', sans-serif;
 
 /* Base font variables  */
+
 $base-font-size: 16px;
 $base-line-height: 24px;
-$base-font-family: Arial;
-$base-font-light: Arial;
+
+/* Main elements colors  */
 
 $main-bg: rgb(82,72,70); /* #524846 */
+$main-search-bg: rgb(82,72,70);
+
 $header-bg: rgba(82,72,70,.85); /* #524846 */;
+$header-collapse-bg: rgba(82,72,70,.6); /* #524846 */;
+
+$main-text: rgb(250,250,250); /* #fafafa */
+$main-border: rgb(250,250,250); /* #fafafa */
+
+
+/* Drink items colors  */
+
+$item-title-text: rgb(72,67,63); /* #48433f; */
+$item-bg: rgba(127,113,110,.7); /* #7f716e */
+
+$rollover-drink: rgb(127,113,110); /* #7f716e */
+$category-item: rgb(244,216,210); /* #f4d8d2 */
 
 $top-drinks-item: rgba(237,237,237,.65); /* #ededed */
-$item-bg: rgba(127,113,110,.7); /* #7f716e */
+
 
 
 $block-bg: rgba(255,255,255,.8);
 $block-header-bg: rgba(255,255,255,.4); 
-
 $block-title: rgb(237,237,237);
+
+/* List stripped colors  */
 
 $list-item-odd: rgba(127,113,110,.6);  /* #7f716e */
 $aside-list-item: rgba(127,113,110,.8);  /* #7f716e */
 $aside-list-item-1: rgba(127,113,110,.6);  /* #7f716e */
 $aside-list-item-2: rgba(127,113,110,.4);  /* #7f716e */
 
-$main-text: rgb(250,250,250); /* #fafafa */
-$main-border: rgb(250,250,250); /* #fafafa */
-$item-title-text: rgb(72,67,63); /* #48433f; */
+/* Common block items colors  */
 
 $common-block-title: rgba(237,237,237,.55); /* #ededed */
 $common-block-subtitle: rgba(237,237,237,.75); /* #ededed */
 $common-block-subtitle-hover: rgba(237,237,237,.9); /* #ededed */
 
-
-$rollover-drink: rgb(127,113,110); /* #7f716e */
-$category-item: rgb(244,216,210); /* #f4d8d2 */
-
-$main-search-bg: rgb(82,72,70);
-
+/* Social block colors  */
 
 $social-fb: rgb(71,90,149); /* #475a95; */
 $social-tw: rgb(109,142,200); /* #6d8ec8; */

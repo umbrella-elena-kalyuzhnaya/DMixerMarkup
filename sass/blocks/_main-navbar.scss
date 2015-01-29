@@ -5,7 +5,7 @@
     }
     .dmixer-main-menu {
         margin-left: 5%;
-        margin-top: 22px;
+        margin-top: 28px;
         position: relative;
         padding-right: 6%;
         .dropdown-menu {
@@ -22,28 +22,35 @@
             margin-left: 0;
             &.navbar-nav li > a {
                 font-size: 1em;
-                .icon-more:before {
-                    font-size: 12px;
+                line-height: 1.4em;
+                .icon-more{
+                    &:before {
+                        font-size: 12px;
+                    }
                 }
             }
         }
         @include respond-to(tablet-landscape-and-below) {
-            &.navbar-nav li a {
-                padding-left: 6px;
-                padding-right: 6px;
+            &.navbar-nav {
+                margin-top: 20px;
+                li a {
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    letter-spacing: 0.3em;
+                }
             }
-        }
-        @include respond-to(mobile-portrait-and-below) {
-            &.navbar-nav li a {
-                letter-spacing: 0.4em;
+       }
+        @include respond-to(tablet-portrait-and-below) {
+            &.navbar-nav {
+                margin-top: 0;
             }
         }
     }
     .dmixer-user-profile {
         margin-right: 0;
         position: absolute;
-        right: 8px;
-        top: 12px;
+        right: 12px;
+        top: 6px;
         float: right;
         .dmixer-user-image {
             width: 74px;
@@ -64,7 +71,7 @@
     }
     .dmixer-search-button {
         width: 100%;
-        margin: 10px 0;
+        margin: 12px 0;
         position: relative;
         &.btn {
             @include border-radius(0);
@@ -72,6 +79,7 @@
             background: #c6c3c3;
             color: #fafafa;
             font-size: 1.5em;
+            font-family: $base-font-light;
             line-height: 1em;
             text-transform: uppercase;
             letter-spacing: .8em;
@@ -83,7 +91,7 @@
             height: 2px;
             background: #fafafa;
             position: absolute;
-            bottom: -11px;
+            bottom: -14px;
             right: 0;
             left: 0;
             margin: auto;
@@ -91,12 +99,16 @@
     }
     .dmixer-navbar-footer {
         background: $main-search-bg;
+        
         .dmixer-footer-list {
             width: 242px;
             margin: 0 auto;
         }
         .dmixer-footer-item {
             position: relative;
+            a {
+                font-family: $base-font-light;
+            }
             &:first-child, &:nth-child(4) {
                 &:before {
                     display: none;
@@ -205,16 +217,15 @@
         }
         .dmixer-menu-item > a {
             color: $main-text;
-            font-size: 1.5em;
+            font-size: 1.35em;
+            line-height: .8em;
             text-transform: uppercase;
-            letter-spacing: .16em;
-            @include transition(.6s ease);
+            letter-spacing: .26em;
+            @include transition(.4s ease);
         }
         .dmixer-menu-item > a:hover, .dmixer-menu-item > a:focus {
-            /* color: $main-color-brown; */
             background: transparent;
             .icons-more {
-                /* color: $main-color-brown; */
                 background: transparent;
             }
         }
@@ -242,7 +253,7 @@
             margin-left: 0;
             font-size: 1.08em;
             opacity: 0;
-            @include transition (opacity .9s ease);
+            @include transition (opacity .4s ease);
         }
         li {
             border: none;
@@ -270,6 +281,8 @@
     }
     .navbar-header {
         margin-left: 4.285%; /* 60px/1400px */
+        position: relative;
+        z-index: 10;
     }
     .navbar-brand {
         line-height: 0;
@@ -306,7 +319,6 @@
         .navbar-header {
             margin-left: 0;
             margin-right: 0;
-            position: relative;
         }
     }
     @include respond-to(tablet-portrait-and-below) {
@@ -321,7 +333,7 @@
         }
         .navbar-brand {
             padding-right: 0;
-            width: 86px;
+            width: 90px;
             padding-left: 0;
             padding-top: 0;
             top: -5px;
@@ -349,6 +361,15 @@
                 }
             }
         }
+        .navbar-toggle {
+            font-size: 15px;
+            line-height: 1em;
+            right: -15px;
+        }
+        .icon-more {
+            right: 3px;
+            top: 1px;
+        }
     }
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
@@ -363,6 +384,7 @@
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     max-height: 1000px;
     position: relative;
+    background: $header-collapse-bg;
 }
 .navbar-fixed-top {
     max-width: 1400px;
@@ -375,6 +397,7 @@
 .modal-open {
     padding-right: 0 !important;
 }
+
 .navbar-collapse {
     position: fixed;
     top: 0;
@@ -382,4 +405,5 @@
     right: 0;
     bottom: 0;
     padding: inherit;
+    @include box-shadow(none);
 }

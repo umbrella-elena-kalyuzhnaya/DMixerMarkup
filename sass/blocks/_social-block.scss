@@ -1,21 +1,26 @@
 .social-block {
     margin-bottom: 16px;
+    margin-top: 18px;
     position: relative;
     .social-title {
         @include bordered-block();
-        margin-top: 20px;
-        margin-bottom: 8px;
+        margin-top: 0;
+        margin-bottom: 5px;
         text-align: center;
         text-transform: uppercase;
         font-size: 1.3125em;
         line-height: .75;
         color: $block-title;
         letter-spacing: 0.2em;
+        &:before {
+            margin-bottom: 22px;
+        }
     }
     @include respond-to(desktop-and-below) {} .social-title {
         line-height: 1em;
     }
     @include respond-to(tablet-landscape-and-below) {
+        margin-top: 0;
         &.social-block-navbar {
             .dmixer-subscribe {
                 padding-bottom: 10px;
@@ -36,7 +41,7 @@
     }
     @include respond-to(tablet-portrait-and-below) {
         margin-bottom: 10px;
-        margin-top: 20px;
+        margin-top: 24px;
         .social-title {
             margin-top: 16px;
             font-size: 1.25em;
