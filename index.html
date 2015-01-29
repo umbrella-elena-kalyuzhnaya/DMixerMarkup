@@ -38,7 +38,7 @@
                     <li class="dmixer-menu-item"><a href="#">Non-alcoholic</a>
                     </li>
                     <ul class="nav navbar-left">
-                        <li class="dropdown dmixer-menu-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle hidden-phone">More<b class="icon-more"></b></a>
+                        <li class="dropdown dmixer-menu-item"><a href="#" data-toggle="dropdown"  data-expanded="true" class="dropdown-toggle hidden-phone">More<b class="icon-more"  data-expanded="true"></b></a>
                             <ul role="menu" class="dropdown-menu dmixer-more-menu">
                                 <ul class="list-inline">
                                     <li class="dmixer-menu-item"><a href="#">Punches</a>
@@ -114,7 +114,7 @@
                 <ul class="nav navbar-nav navbar-right dmixer-main-search">
                     <li class="dropdown dmixer-search-item">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                            <i class="icon-search" id="button-modal"></i>
+                            <i class="icon-search" data-expanded="true" id="button-modal"></i>
                         </a>
                         <ul role="menu" class="dropdown-menu dmixer-more-menu hidden-phone">
                             <form role="search" class="navbar-form dmixer-search dmixer-search-form">
@@ -1112,7 +1112,7 @@
     
     <div id="modal-id" class="modal dmixer-search-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="gliphicon-close">x</i></button></div>
+            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="gliphicon-close" id="closed">x</i></button></div>
             <div class="modal-content">
                 
                 <div class="modal-body">
@@ -1130,7 +1130,7 @@
     </div>
 
     <script src="js/vendor/jquery.min.js"></script>
-    <script src="build/scripts.min.js"></script>
+    <script src="js-build/scripts.js"></script>
     <script>
     $(document).ready(function() {
     });
