@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "IBM866";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -8298,84 +8298,84 @@ button.close {
   background: url('../images/spirits-xs-s7035dd1a6a.png') no-repeat;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-beer-ale {
   background-position: 0 -37px;
   height: 200px;
   width: 61px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-bourbon {
   background-position: -65px 0;
   height: 237px;
   width: 95px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-brandy {
   background-position: -164px -2px;
   height: 235px;
   width: 92px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-gin {
   background-position: -260px -1px;
   height: 236px;
   width: 71px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-liqueurs {
   background-position: -335px -37px;
   height: 200px;
   width: 89px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-rum {
   background-position: -428px 0;
   height: 237px;
   width: 72px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-scotch {
   background-position: -504px -2px;
   height: 235px;
   width: 77px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-soda {
   background-position: -585px -37px;
   height: 200px;
   width: 48px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-tequila {
   background-position: -637px -37px;
   height: 200px;
   width: 117px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-vodka {
   background-position: -758px 0;
   height: 237px;
   width: 72px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-whiskey {
   background-position: -834px -37px;
   height: 200px;
   width: 138px;
 }
 
-/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-wine {
   background-position: -976px -2px;
   height: 235px;
@@ -9992,19 +9992,19 @@ button.close {
   padding-bottom: 0;
   letter-spacing: .16em;
 }
-/* line 18, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:visited {
   color: white;
 }
-/* line 21, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:focus {
   color: white;
 }
-/* line 24, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:hover {
   color: white;
 }
-/* line 27, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:active {
   color: white;
 }
@@ -10014,19 +10014,19 @@ button.close {
   padding-bottom: 0;
   letter-spacing: .16em;
 }
-/* line 18, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:visited {
   color: white;
 }
-/* line 21, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:focus {
   color: white;
 }
-/* line 24, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
 }
-/* line 27, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:active {
   color: white;
 }
@@ -10249,7 +10249,7 @@ button.close {
   display: block;
   float: left;
 }
-/* line 58, ../sass/blocks/_dmixer-slider.scss */
+/* line 60, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider .dmixer-slider-prev,
 .dmixer-slider .dmixer-slider-next {
   position: absolute;
@@ -10265,68 +10265,72 @@ button.close {
   -o-transition: background 0.4s ease-in;
   transition: background 0.4s ease-in;
 }
-/* line 68, ../sass/blocks/_dmixer-slider.scss */
+/* line 70, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider .dmixer-slider-prev i,
 .dmixer-slider .dmixer-slider-next i {
   display: table-cell;
   vertical-align: middle;
   color: #fafafa;
 }
-/* line 72, ../sass/blocks/_dmixer-slider.scss */
+/* line 74, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider .dmixer-slider-prev i:before,
 .dmixer-slider .dmixer-slider-next i:before {
   font-size: 50px;
   vertical-align: middle;
 }
-/* line 77, ../sass/blocks/_dmixer-slider.scss */
+/* line 79, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider .dmixer-slider-prev:hover,
 .dmixer-slider .dmixer-slider-next:hover {
   background: rgba(170, 42, 7, 0.8);
 }
-/* line 83, ../sass/blocks/_dmixer-slider.scss */
+/* line 85, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider .dmixer-slider-prev {
   left: 0;
 }
-/* line 87, ../sass/blocks/_dmixer-slider.scss */
+/* line 89, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider .dmixer-slider-next {
   right: 0;
 }
-/* line 91, ../sass/blocks/_dmixer-slider.scss */
+/* line 93, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider.dmixer-slider-responsive {
   width: auto;
   margin-left: 0;
 }
-/* line 95, ../sass/blocks/_dmixer-slider.scss */
+/* line 97, ../sass/blocks/_dmixer-slider.scss */
 .dmixer-slider .clearfix {
   float: none;
   clear: both;
 }
 @media only screen and (max-width: 989px) {
-  /* line 100, ../sass/blocks/_dmixer-slider.scss */
+  /* line 105, ../sass/blocks/_dmixer-slider.scss */
+  .dmixer-slider .dmixer-slider-item {
+    width: 300px;
+  }
+  /* line 108, ../sass/blocks/_dmixer-slider.scss */
   .dmixer-slider .dmixer-slider-subject {
     font-size: 0.9em;
     line-height: 1em;
   }
-  /* line 104, ../sass/blocks/_dmixer-slider.scss */
+  /* line 112, ../sass/blocks/_dmixer-slider.scss */
   .dmixer-slider .dmixer-slider-title {
     font-size: 2em;
     line-height: 1em;
   }
 }
 @media only screen and (max-width: 599px) {
-  /* line 114, ../sass/blocks/_dmixer-slider.scss */
+  /* line 122, ../sass/blocks/_dmixer-slider.scss */
   .dmixer-slider .dmixer-slider-subject,
   .dmixer-slider .dmixer-slider-title {
     display: none;
   }
-  /* line 118, ../sass/blocks/_dmixer-slider.scss */
+  /* line 126, ../sass/blocks/_dmixer-slider.scss */
   .dmixer-slider .dmixer-slider-prev,
   .dmixer-slider .dmixer-slider-next {
     bottom: 0;
     height: 44px;
     width: 44px;
   }
-  /* line 125, ../sass/blocks/_dmixer-slider.scss */
+  /* line 133, ../sass/blocks/_dmixer-slider.scss */
   .dmixer-slider .dmixer-slider-prev i:before,
   .dmixer-slider .dmixer-slider-next i:before {
     font-size: 25px;
@@ -10687,7 +10691,7 @@ h4 {
   -webkit-padding-start: 0;
   padding: 0;
 }
-/* line 11, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, c:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .general-content .dmixer-sidebar-sm .dmixer-top-drinks li {
   list-style-image: none;
   list-style-type: none;

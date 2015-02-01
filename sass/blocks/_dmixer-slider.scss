@@ -52,6 +52,8 @@
         padding: 0;
         display: block;
         float: left;
+
+        
     }
     
     .dmixer-slider-prev,
@@ -96,7 +98,13 @@
         float: none;
         clear: both;
     }
+    @include respond-to(desktop-and-below) {
+
+    }
     @include respond-to(tablet-landscape-and-below) {
+        .dmixer-slider-item {
+            width: 300px;
+        }
         .dmixer-slider-subject {
             font-size: 0.9em;
             line-height: 1em;
@@ -108,7 +116,7 @@
     } 
     @include respond-to(mobile-landscape-and-below) {
         .dmixer-slider-item {
-
+            
         }
         .dmixer-slider-subject,
         .dmixer-slider-title {

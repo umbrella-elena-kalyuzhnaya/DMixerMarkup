@@ -1,23 +1,8 @@
 $(document).ready(function() {
-
-    function isBreakPoint(bp) { /* The breakpoints that you set in your css */
-
-        var bps = [320, 480, 768, 1024, 1262, 2600];
-        var w = $(window).width();
-        var min, max;
-        for (var i = 0, l = bps.length; i < l; i++) {
-            if (bps[i] === bp) {
-                min = bps[i - 1] || 0;
-                max = bps[i];
-                break;
-            }
-        }
-        return w > min && w <= max;
-    }
-
     /* Padding fixed height Navbar with open Bootstrap dropdown */
 
 
+    var carousel = $("#dmixer-slider-main");
 
     var animateNavbarHeight = function(additionalHeight) {
         $('.dmixer-main-navbar').css({
@@ -53,12 +38,11 @@ $(document).ready(function() {
 
         $('.navbar-toggle').on("click", (function(event) {
 
-
             $('body').toggleClass('mode-prevent-scroll');
             var bodyHeight = $('body').height();
             var navbarHeight = $('.navbar-header').height();
             $('.navbar-collapse').css({
-                'max-height': bodyHeight - navbarHeight,
+                'height': bodyHeight,
             })
 
 
@@ -75,6 +59,7 @@ $(document).ready(function() {
             }
             
         });
+    
 
         $('.dmixer-main-menu .dropdown-toggle').on("click", (function(event) {
 
@@ -107,8 +92,7 @@ $(document).ready(function() {
         }));
     }
   
-
-    function isBreakPoint(bp) { /* The breakpoints that you set in your css */
+    function isBreakPoint(bp) { /* The breakpoints that you set in your css*/ 
 
         var bps = [320, 480, 768, 1024, 1200, 1400];
         var w = $(window).width();
@@ -124,28 +108,60 @@ $(document).ready(function() {
         return w > min && w <= max;
     }
 
+    carousel.carouFredSel({
+        //responsive: true,
+        auto: false,
+        width: '100%',
+        scroll: 1,
+        items: {
+            width: 940,
+            height: '55.3%',  //  optionally resize item-height
+            start: -1,
+            visible: 1
+        },
+        swipe: {
+          onTouch: true,
+          onMouse: true
+        },
+        prev: '#dmixer-main-prev',
+        next: '#dmixer-main-next',
+        onCreate: function() {
+            $(window).on('resize', function() {
+                carousel.parent().add(carousel).height(carousel.children().first().height());
+            }).trigger('resize');
+        }
+    });
+
     $(window).on("resize", function() {
 
         if (isBreakPoint(320)) {
             console.log(480);
 
-            $("#button-modal").click(function() {
-                Show("modal-id");
-            });
 
-            fixBackroundMobile();
+
+            /*$("#button-modal").click(function() {
+                Show("modal-id");
+            });*/
+
+            //carouselIni();
+
+            //fixBackroundMobile();
+            carousel.trigger("configuration", ["items.visible", 3]);
+
 
         }
-
         if (isBreakPoint(480)) {
             console.log(768);
-            addDropdownHeight();
+            /*addDropdownHeight();
 
             $("#button-modal").click(function() {
                 Show("modal-id");
             });
             fixBackroundMobile();
-
+            carouselIni();*/
+             carousel.trigger("configuration", ["items.visible", 3]);
+             //carousel.trigger("configuration", ["responsive", "true"]);
+                carousel.trigger("configuration", ["item.width", 940]);
         }
         if (isBreakPoint(768)) {
             console.log(1024);
@@ -154,7 +170,7 @@ $(document).ready(function() {
                 Show("modal-id");
             });
             fixBackroundMobile();
-
+            carousel.trigger("configuration", ["items.visible", 3]);
 
         }
 
@@ -162,6 +178,9 @@ $(document).ready(function() {
 
             console.log(1200);
                 addDropdownHeight();
+                carousel.trigger("configuration", ["items.visible", 1]);
+                carousel.trigger("configuration", ["responsive", "true"]);
+                carousel.trigger("configuration", ["item.width", 940]);
 
         }
 
@@ -173,6 +192,7 @@ $(document).ready(function() {
 
         if (isBreakPoint(1400)) {
             console.log(2600);
+            carousel.trigger("configuration", ["items.visible", 1]);
 
             addDropdownHeight();
 
@@ -311,7 +331,6 @@ $(document).ready(function() {
 
     });​*/
 
-    var carousel = $("#dmixer-slider-main");
     var carouselFancyItems = $(".dmixer-slider-item").length - 1;
 
     //  Responsive layout, resizing the items
@@ -373,7 +392,7 @@ $(document).ready(function() {
         }
     });
 
-      } else {
+     } else {
           carousel.carouFredSel({
             //responsive: true,
             auto: false,
@@ -402,7 +421,7 @@ $(document).ready(function() {
 
     }
 
-    function carouselSmall() {
+ /*   function carouselSmall() {
 
       if ( $(window).width() < 479 ) {
         carousel.trigger("configuration", ["items.visible", 3]);
@@ -414,16 +433,17 @@ $(document).ready(function() {
 
       }
 
-    }
+    }*/
 
 
-    carouselIni();
+//    carouselIni();
 
 
-    $(window).resize(function() {
+   /* $(window).resize(function() {
       carouselSmall();
     });
-    var carouFredSelCall = function () {    /*  Custom configuration carousel  */
+   *//*
+    var carouFredSelCall = function () {    /*  Custom configuration carousel  
 
       var options = {
             items               : 2,
@@ -451,16 +471,16 @@ $(document).ready(function() {
     }
     carouFredSelCall();
 
-    var carouselContent = $('.post-circular').parent().html();
-
+    var carouselContent = $('.post-circular').parent().html();*/
+/*
     $(window).on("resize", function () {
 
-      if ( isBreakPoint(2600) ) {  /* Carousel initialize  */
+      if ( isBreakPoint(2600) ) {  /* Carousel initialize  
 
         carouFredSelCall();
 
       }
-      if ( isBreakPoint(1262) ) {  /* Carousel destroy */ 
+      if ( isBreakPoint(1262) ) {  /* Carousel destroy  
 
         $('#carousel ul').empty().html(carouselContent);  
 
@@ -475,6 +495,6 @@ $(document).ready(function() {
         
       }
 
-    }).resize();
+    }).resize();*/
 
 });
