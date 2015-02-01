@@ -8,7 +8,7 @@ module.exports = (grunt) ->
                 tasks: ['compass:compile']
             js:
                 files: ['js/**']
-                #tasks: ['build:js']
+                tasks: ['build:js']
                 
         # Compile all JS files into one
         concat:
@@ -23,7 +23,6 @@ module.exports = (grunt) ->
                 dest: 'js-build/scripts.js'
 
         
-
         # Compile styles
         compass:
             compile:
@@ -38,6 +37,14 @@ module.exports = (grunt) ->
             main:
                 files:
                     'build/scripts.min.js': '<%= concat.main.dest %>'
+            build:
+                files: [{
+                    expand: true
+                    cwd: "js-builds/"
+                    src: ['**/*.js','!**/*.min.js']
+                    dest: 'js-builds/'
+                    ext: '.min.js'
+                }]
 
         #Jade templates
         jade:
@@ -57,6 +64,12 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks 'grunt-contrib-jade'
 
     # Default tasks
+
+    grunt.registerTask 'build:js', [
+        'concat:main',
+        'uglify:main'
+    ]
+
     grunt.registerTask 'default', [
         #'jade',
         'concat', 

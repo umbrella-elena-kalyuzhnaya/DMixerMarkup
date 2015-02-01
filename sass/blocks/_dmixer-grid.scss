@@ -92,10 +92,31 @@
     .row {
       padding-bottom: 0;
     }
-    .dmixer-wrap {
-    }
     .dmixer-drink {
       background: $aside-list-item;
+      text-align: center;
+      cursor: pointer;
+
+      position: relative;
+      width: 100%;   /* definite width (any) required */
+      height: 100%;  /* definite height (any) required */
+    }
+    .dmixer-title {
+      font-size: 1.1em;
+      line-height: 1.2em;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform(translate(-50%, -50%));
+    }
+  }
+  &.dmixer-grid-centered {
+    padding: 0;
+    .row {
+      padding-bottom: 0;
+    }
+    .dmixer-drink {
       text-align: center;
 
       position: relative;

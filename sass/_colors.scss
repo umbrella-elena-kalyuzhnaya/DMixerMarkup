@@ -34,7 +34,6 @@ $category-item: rgb(244,216,210); /* #f4d8d2 */
 $top-drinks-item: rgba(237,237,237,.65); /* #ededed */
 
 
-
 $block-bg: rgba(255,255,255,.8);
 $block-header-bg: rgba(255,255,255,.4); 
 $block-title: rgb(237,237,237);
@@ -59,6 +58,15 @@ $social-tw: rgb(109,142,200); /* #6d8ec8; */
 $social-pin: rgb(172,38,44); /* #ac262c; */
 $social-gplus: rgb(193,76,60); /* #c14c3c; */
 $social-like: rgb(199,42,108); /* #c72a6c; */
+
+
+/* Slider item-bg */
+
+$slider-subject-bg: rgba(170,42,7,.4);  /* #aa2a07 */
+$slider-item-bg: rgba(170,42,7,.6);  /* #aa2a07 */
+$slider-item-hover-bg: rgba(170,42,7,.8);  /* #aa2a07 */
+
+$slider-subject-text: rgb(255,255,255);
 
 $responder-use-ems: false;
 

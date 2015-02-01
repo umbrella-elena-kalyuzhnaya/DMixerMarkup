@@ -7,7 +7,7 @@
         margin-left: 5%;
         margin-top: 28px;
         position: relative;
-        padding-right: 6%;
+        /* padding-right: 6%; */
         .dropdown-menu {
             width: 100%;
             text-align: center;
@@ -47,11 +47,13 @@
         }
     }
     .dmixer-user-profile {
+
         margin-right: 0;
         position: absolute;
         right: 12px;
         top: 6px;
         float: right;
+        z-index: 10;
         .dmixer-user-image {
             width: 74px;
             height: 74px;
@@ -62,9 +64,11 @@
     }
     .dmixer-main-search {
         position: absolute;
+        margin-right: 0;
         top: 0;
         right: 0;
         width: 100%;
+        z-index: 10;
         .dmixer-search-item {
             width: 100%;
         }
@@ -99,7 +103,7 @@
     }
     .dmixer-navbar-footer {
         background: $main-search-bg;
-        
+        margin-bottom: 36px;
         .dmixer-footer-list {
             width: 242px;
             margin: 0 auto;
@@ -170,10 +174,13 @@
             }
         }
         .dmixer-main-search  {
-            top: 0;
+            top: -3px;
+            right: 3px;
             .dropdown-toggle{
+                margin-top: 0;
+                right: 40px;
                 .icon-search {
-                    font-size: 26px;
+                    font-size: 24px;
                     top: 0;
                     right: 0;
                 }
@@ -187,8 +194,8 @@
         .dmixer-user-profile {
             margin: 0;
             position: absolute;
-            top: 6px;
-            right: 7px;
+            top: 2px;
+            right: 5px;
             .dmixer-user-link {
                 display: block;
             }
@@ -326,10 +333,12 @@
             position: relative;
         }
         .navbar-collapse {
-            margin: 0 0 36px 0;
+            margin: 0;
             padding: 0;
             position: relative;
             border-top: transparent;
+            background: $header-collapse-bg;
+
         }
         .navbar-brand {
             padding-right: 0;
@@ -384,7 +393,7 @@
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     max-height: 1000px;
     position: relative;
-    background: $header-collapse-bg;
+    
 }
 .navbar-fixed-top {
     max-width: 1400px;
@@ -406,4 +415,5 @@
     bottom: 0;
     padding: inherit;
     @include box-shadow(none);
+    -webkit-overflow-scrolling: touch;
 }
