@@ -1,4 +1,4 @@
-module.exports = (grunt) ->
+ module.exports = (grunt) ->
      
     grunt.initConfig
         # Watchers
@@ -8,7 +8,7 @@ module.exports = (grunt) ->
                 tasks: ['compass:compile']
             js:
                 files: ['js/**']
-                #tasks: ['build:js']
+                tasks: ['build:js']
                 
         # Compile all JS files into one
         concat:
@@ -52,13 +52,14 @@ module.exports = (grunt) ->
 
     grunt.loadNpmTasks 'grunt-contrib-concat'
     grunt.loadNpmTasks 'grunt-contrib-compass'
+    
     grunt.loadNpmTasks 'grunt-contrib-uglify'
     grunt.loadNpmTasks 'grunt-contrib-watch'
     grunt.loadNpmTasks 'grunt-contrib-jade'
 
     # Default tasks
     grunt.registerTask 'default', [
-        #'jade',
+        'jade:compile'
         'concat', 
         'uglify'
     ]

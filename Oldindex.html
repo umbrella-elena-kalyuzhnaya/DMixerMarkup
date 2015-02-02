@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drinks Mixer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/screen.css">
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="/stylesheets/ie8.css"><![endif]-->
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="/stylesheets/ie9.css"><![endif]-->
+</head>
+
+<body>
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top dmixer-main-navbar">
+        <div class="container ">
+
+            <div class="navbar-header dmixer-logo-wrapper">
+
+                <h1 class="navbar-logo">
+                    <a href="#" class="navbar-brand">Drinks Mixer<img alt="Drinks Mixer" src="images/layout/DM-logo-lrg.png"></a>
+                </h1>
+                <button type="button" data-toggle="collapse" data-target="#dmixer-navbar-collapsed" class="navbar-toggle collapsed">Menu<span class="icon-more"></span></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse collapse" id="dmixer-navbar-collapsed">
+                <ul class="nav navbar-nav dmixer-main-menu">
+                    <li class="dmixer-menu-item"><a href="#">Coctails</a>
+                    </li>
+                    <li class="dmixer-menu-item"><a href="#">Shots</a>
+                    </li>
+                    <li class="dmixer-menu-item"><a href="#">Beer</a>
+                    </li>
+                    <li class="dmixer-menu-item"><a href="#">Non-alcoholic</a>
+                    </li>
+                    <ul class="nav navbar-left">
+                        <li class="dropdown dmixer-menu-item"><a href="#" data-toggle="dropdown"  data-expanded="true" class="dropdown-toggle hidden-phone">More<b class="icon-more"  data-expanded="true"></b></a>
+                            <ul role="menu" class="dropdown-menu dmixer-more-menu">
+                                <ul class="list-inline">
+                                    <li class="dmixer-menu-item"><a href="#">Punches</a>
+                                    </li>
+                                    <li class="dmixer-menu-item"><a href="#">Liqueurs</a>
+                                    </li>
+                                    <li class="dmixer-menu-item"><a href="#">Cofee & Tea</a>
+                                    </li>
+                                    <li class="dmixer-menu-item"><a href="#">Featured Partners</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+
+                <button type="button" class="btn btn-default btn-lg dmixer-search-button visible-phone">
+                  <span class="glyphicon icon-search" aria-hidden="true"></span> Search
+                </button>
+
+                <div class="social-block social-block-navbar visible-phone">
+                    <div class="social-content">
+                        <ul class="social-icons">
+                            <li class="social-item"><a href="#" rel="me" title="facebook"><i class="ico-sc-fb"></i></a>
+                            </li>
+                            <li class="social-item"><a href="#" rel="me" title="twitter"><i class="ico-sc-tw"></i></a>
+                            </li>
+                            <li class="social-item"><a href="#" rel="me" title="pinterest"><i class="ico-sc-pin"></i></a>
+                            </li>
+                            <li class="social-item"><a href="#" rel="me" title="gplus"><i class="ico-sc-gplus"></i></a>
+                            </li>
+                            <li class="social-item"><a href="#" rel="me" title="facebook"><i class="ico-sc-like"></i></a>
+                            </li>
+                        </ul>
+                        <div class="dmixer-subscribe"><a href="#"><i class="dmixer-subscribe-email"></i><span class="dmixer-subscribe-text">Keep up-to-date with everything happening here at DrinksMixer</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="dmixer-navbar-footer visible-phone">
+                    <ul class="dmixer-footer-list list-inline">
+                        <li class="dmixer-footer-item"><a href="">Contact Us</a></li>
+                        <li class="dmixer-footer-item"><a href="">Advertise</a></li>
+                        <li class="dmixer-footer-item"><a href=""><i class="icon-ad-choices"></i>AdChoices</a></li>
+                        <li class="dmixer-footer-item"><a href="">Careers</a></li>
+                        <li class="dmixer-footer-item"><a href="">Privacy</a></li>
+                        <li class="dmixer-footer-item"><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </nav>
+
+                <!-- <form action="" class="srch-form dmixer-search-header dmixer-search-header">
+                    <div class="dmixer-search-wrapper">
+                        <input type="text" class="dmixer-search-input" placeholder="Search..." />
+                        <button class="dmixer-search-button" type="submit">
+                            <em class="icon-search"></em>
+                        </button>
+                    </div>
+                </form>-->
+            </div>
+            <ul class="nav navbar-nav navbar-right dmixer-user-profile">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle dmixer-user-link">
+                    <img src="images/authors/SomeAuthor.png" alt="SomeAuthor" class="dmixer-user-image">
+                </a>
+                <!-- <ul role="menu" class="dropdown-menu">
+                    <form role="search" class="navbar-form dmixer-search dmixer-search-main">
+                        <button type="submit" class="btn btn-default"></button>
+                        <div class="form-group">
+                            <input type="text" placeholder="Search" class="form-control">
+                        </div>
+                    </form>
+                </ul> -->
+                </ul>
+                <ul class="nav navbar-nav navbar-right dmixer-main-search">
+                    <li class="dropdown dmixer-search-item">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <i class="icon-search" data-expanded="true" id="button-modal"></i>
+                        </a>
+                        <ul role="menu" class="dropdown-menu dmixer-more-menu hidden-phone">
+                            <form role="search" class="navbar-form dmixer-search dmixer-search-form">
+                                <button type="submit" class="btn btn-default"></button>
+                                <div class="form-group">
+                                    <i class="icon-search"></i>
+                                    <input type="text" placeholder="Search" class="form-control">
+                                </div>
+                            </form>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+    <section class="container general-wrapper">
+        <section class="general-content">
+            <!-- <div class="header-ad-slot">
+                <img src="images/header-ad-slot.png" alt="Header AD">
+            </div> -->
+            <section class="general-search">
+                <form role="search" class="navbar-form dmixer-search">
+                    <button type="submit" class="btn btn-default"></button>
+                    <div class="form-group">
+                        <input type="text" class="form-control">
+                    </div>
+                </form>
+            </section>
+            <!-- <section class="general-slider">
+                <div class="dmixer-slider">
+                    <!-- <img alt="Alabama slammer" src="images/AlabamaSlammer.jpg">
+                    <ul id="dmixer-slider">
+                        <li class="dmixer-slider-item">
+                          <img src="images/AlabamaSlammer.jpg" width="300" />
+                          <h3 class="dmixer-slider-subject">Drink of the month</h3>
+                          <strong class="dmixer-slider-title">Alabama Slammer</strong>
+                        </li>
+                        
+                        <li class="dmixer-slider-item">
+                          <img src="images/AlabamaSlammer.jpg" width="300" />
+                          <h3 class="dmixer-slider-subject">Drink of the month</h3>
+                          <strong class="dmixer-slider-title">Alabama Slammer</strong>
+                        </li>
+                        
+                        <li class="dmixer-slider-item">
+                          <img src="images/AlabamaSlammer.jpg" width="300" />
+                          <h3 class="dmixer-slider-subject">Drink of the month</h3>
+                          <strong class="dmixer-slider-title">Alabama Slammer</strong>
+                        </li>
+                        
+                        <li class="dmixer-slider-item">
+                          <img src="images/AlabamaSlammer.jpg" width="300" />
+                          <h3 class="dmixer-slider-subject">Drink of the month</h3>
+                          <strong class="dmixer-slider-title">Alabama Slammer</strong>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="dmixer-sidebar-sm">
+                    <h2 class="dmixer-sidebar-title">Highlights</h2>
+                    <ul class="dmixer-top-drinks">
+                        <li class="dmixer-top-item">
+                            <a href="" class="dmixer-top-link">
+                                <img src="images/top-drinks/highlights-drink-1.jpg" alt="highlights-drink-1">
+                                <span class="dmixer-item-title">The kicker</span>
+                            </a>
+                        </li>
+                        <li class="dmixer-top-item">
+                            <a href="" class="dmixer-top-link">
+                                <img src="images/top-drinks/highlights-drink-2.jpg" alt="highlights-drink-2"><span class="dmixer-item-title">Baby's bottom</span>
+                            </a>
+                        </li>
+                        <li class="dmixer-top-item">
+                            <a href="" class="dmixer-top-link"><img src="images/top-drinks/highlights-drink-3.jpg" alt="highlights-drink-3">
+                                <span class="dmixer-item-title">Spiked eggnog</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="dmixer-items-more">
+                        <span class="dmixer-more-text">More drinks<i class="icon-common-right-arrow"></i></span>
+                    </a>
+                </div>
+            </section> -->
+            <!-- <section class="general-carousel">
+                <h2>From the bar</h2>
+                <div class="carousel-wrapper">
+                    <div id="carousel" class="post-carousel">
+                        <ul class="post post-circular">
+                            <li class="post-item">
+                                <div class="post-thumb"><img alt="holiday-entertaining" src="images/holiday-entertaining.jpg" class="wp-post-image">
+                                </div>
+                                <div class="post-desc">
+                                    <h4> <a href="#">The do's and dont'ts of holiday entertaining</a></h4>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span>by Caroline Goddard</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="post-item">
+                                <div class="post-thumb"><img alt="holidays-coctails" src="images/holidays-coctails.jpg" class="wp-post-image">
+                                </div>
+                                <div class="post-desc">
+                                    <h4> <a href="#">Party perfect holidays coctails</a></h4>
+                                    <div class="entry-author"><img src="images/authors/MarisCallahan.jpg" alt="Maris Callahan" class="img-circle"><span>by Maris Callahan</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="post-item">
+                                <div class="post-thumb"><img alt="trips-party" src="images/trips-party.jpg" class="wp-post-image">
+                                </div>
+                                <div class="post-desc">
+                                    <h4> <a href="#">Trips for pulling off a flawless holiday party</a></h4>
+                                    <div class="entry-author"><img src="images/authors/MarisCallahan.jpg" alt="Maris Callahan" class="img-circle"><span>by Maris Callahan</span>
+                                    </div>
+                                </div>
+                            </li> 
+                        </ul>
+                        <!-- prev and next button<a id="prev" href="#" class="prev icons-left-advance-arrow hvr-buzz">&lt;             </a><a id="next" href="#" class="next icons-right-advance-arrow hvr-buzz">&gt;</a>
+                    </div><a href="#" class="view-more">View all articles</a>
+                </div>
+            </section> -->
+            <section class="general-panel">
+                <section class="col-xs-12 col-md-9 dmixer-grid dmixer-grid-main">
+                    <h2 class="hidden-phone">Search by spirit</h2>
+                    <div class="row">
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-vodka"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">vodka</strong><span class="dmixer-subtitle hidden-phone">1611 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-rum"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">rum</strong><span class="dmixer-subtitle hidden-phone">1455 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-tequila"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">tequila</strong><span class="dmixer-subtitle hidden-phone">339 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-whiskey"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">whiskey</strong><span class="dmixer-subtitle hidden-phone">760 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-brandy"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">brandy</strong><span class="dmixer-subtitle hidden-phone">108 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-bourbon"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">bourbon</strong><span class="dmixer-subtitle hidden-phone">50 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-scotch"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">scotch</strong><span class="dmixer-subtitle hidden-phone">25 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-liqueur"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">liqueurs</strong><span class="dmixer-subtitle hidden-phone">68 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-gin"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">gin</strong><span class="dmixer-subtitle hidden-phone">759 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-beer-ale"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">beer</strong><span class="dmixer-subtitle hidden-phone">342 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-wine"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">wine</strong><span class="dmixer-subtitle hidden-phone">139 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-4 col-sm-4 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink rollover-text-buble-up">
+                                    <i class="spirits-soda"></i>
+                                    <span class="dmixer-drink-description">
+                                        <strong class="dmixer-title">non-<wbr />alcoholic</strong><span class="dmixer-subtitle hidden-phone">736 recepies</span>
+                                    </span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <aside class="col-xs-12 col-md-3 dmixer-recent">
+                    <div class="common-block">
+                        <div class="common-block-title">Have a great recipie?</div>
+                        <div class="common-block-content">
+                            <button>Submit your own</button>
+                        </div>
+                    </div>
+                    <div class="social-block">
+                        <div class="social-title">Join us at the bar</div>
+                        <div class="social-content">
+                            <ul class="social-icons">
+                                <li class="social-item"><a href="#" rel="me" title="facebook"><i class="ico-sc-fb"></i></a>
+                                </li>
+                                <li class="social-item"><a href="#" rel="me" title="twitter"><i class="ico-sc-tw"></i></a>
+                                </li>
+                                <li class="social-item"><a href="#" rel="me" title="pinterest"><i class="ico-sc-pin"></i></a>
+                                </li>
+                                <li class="social-item"><a href="#" rel="me" title="gplus"><i class="ico-sc-gplus"></i></a>
+                                </li>
+                                <li class="social-item"><a href="#" rel="me" title="facebook"><i class="ico-sc-like"></i></a>
+                                </li>
+                            </ul>
+                            <div class="dmixer-subscribe"><a href="#"><i class="dmixer-subscribe-email"></i><span class="dmixer-subscribe-text">Keep up-to-date with everything happening here at DrinksMixer</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="adv-block"><img src="images/award-winning.jpg" alt="Award wining"></div>-->
+                    <aside class="dmixer-recent bordered-block">
+                        <h2 class="dmixer-recent-title">Top picks</h2>
+                        <section class="dmixer-grid dmixer-grid dmixer-grid-aside">
+                            <div class="row">
+                                <div class="dmixer-item col-xs-4 col-sm-3 col-md-6">
+                                    <div class="dmixer-wrap">
+                                        <a href="#" class="dmixer-drink rollover-text-buble">
+                                            <h3 class="dmixer-title">caribou lou</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dmixer-item col-xs-4 col-sm-3 col-md-6">
+                                    <div class="dmixer-wrap">
+                                        <a href="#" class="dmixer-drink rollover-text-buble">
+
+                                            <h3 class="dmixer-title">jager bomb</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dmixer-item col-xs-4 col-sm-3 col-md-6">
+                                    <div class="dmixer-wrap">
+                                        <a href="#" class="dmixer-drink rollover-text-buble">
+
+                                            <h3 class="dmixer-title">irish car bomb</h3>
+
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dmixer-item col-xs-4 col-sm-3 col-md-6">
+                                    <div class="dmixer-wrap">
+                                        <a href="#" class="dmixer-drink rollover-text-buble">
+
+                                            <h3 class="dmixer-title">long island iced tea</h3>
+
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dmixer-item col-xs-4 col-sm-3 col-md-6">
+                                    <div class="dmixer-wrap">
+                                        <a href="#" class="dmixer-drink rollover-text-buble">
+
+                                            <h3 class="dmixer-title">talian apple martini</h3>
+
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dmixer-item col-xs-4 col-sm-3 col-md-6">
+                                    <div class="dmixer-wrap">
+                                        <a href="#" class="dmixer-drink rollover-text-buble">
+
+                                            <h3 class="dmixer-title">amaretto sour</h3>
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </aside>
+                </aside>
+            </section>
+            <!-- <section class="search-by-letter">
+                <div class="common-block">
+                    <div class="common-block-title">Search drinks by letter</div>
+                    <div class="common-block-content">
+                        <ul class="letter-list">
+                            <li class="letter-item"><a href="#">a</a>
+                            </li>
+                            <li class="letter-item"><a href="#">b</a>
+                            </li>
+                            <li class="letter-item"><a href="#">c</a>
+                            </li>
+                            <li class="letter-item"><a href="#">d</a>
+                            </li>
+                            <li class="letter-item"><a href="#">e</a>
+                            </li>
+                            <li class="letter-item"><a href="#">f</a>
+                            </li>
+                            <li class="letter-item"><a href="#">g</a>
+                            </li>
+                            <li class="letter-item"><a href="#">h</a>
+                            </li>
+                            <li class="letter-item"><a href="#">i</a>
+                            </li>
+                            <li class="letter-item"><a href="#">j</a>
+                            </li>
+                            <li class="letter-item"><a href="#">k</a>
+                            </li>
+                            <li class="letter-item"><a href="#">l</a>
+                            </li>
+                            <li class="letter-item"><a href="#">m</a>
+                            </li>
+                            <li class="letter-item"><a href="#">n</a>
+                            </li>
+                            <li class="letter-item"><a href="#">o</a>
+                            </li>
+                            <li class="letter-item"><a href="#">p</a>
+                            </li>
+                            <li class="letter-item"><a href="#">q</a>
+                            </li>
+                            <li class="letter-item"><a href="#">r</a>
+                            </li>
+                            <li class="letter-item"><a href="#">s</a>
+                            </li>
+                            <li class="letter-item"><a href="#">t</a>
+                            </li>
+                            <li class="letter-item"><a href="#">u</a>
+                            </li>
+                            <li class="letter-item"><a href="#">v</a>
+                            </li>
+                            <li class="letter-item"><a href="#">w</a>
+                            </li>
+                            <li class="letter-item"><a href="#">x</a>
+                            </li>
+                            <li class="letter-item"><a href="#">y</a>
+                            </li>
+                            <li class="letter-item"><a href="#">z</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section> -->
+            <!-- <section class="trending-drinks">
+          <h2>Top picks</h2>
+          <section class="dmixer-grid">
+            <div class="row">
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-caribou-lou"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">caribou lou</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-jager-bomb"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">jager bomb</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-irish-car-bomb"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">irish car bomb</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-long-tea"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">long island iced tea</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-it-apple-martini"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">italian apple martini</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-amaretto-sour"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">amaretto sour</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-mojito-diablo"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">mojito diablo</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-jungle-juice"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">jungle juice</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-mojito"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">mojito</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-red-headed-slut"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">red headed slut</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-buttery-nipple"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">buttery nipple</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+              <div class="dmixer-item col-xs-4 col-sm-3 col-lg-2">
+                <div class="dmixer-wrap">
+                  <div class="dmixer-drink">
+                    <header><i class="icon-ice-bomb"></i></header>
+                    <footer>
+                      <h4 class="dmixer-title">ice bomb</h4>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section> -->
+            <!--top-picks-->
+        </section>
+        <!-- end general-conntent -->
+        <section class="related-content">
+            <!-- main-carousel-container-->
+            <!-- <section class="main-carousel">
+          <h2>From the bar</h2>
+          <div class="carousel-wrapper">
+            <div id="carousel" class="post-carousel"> 
+              <ul class="post post-circular">      
+                <li class="post-item">
+                  <div class="post-thumb"><img alt="holiday-entertaining" src="images/holiday-entertaining.jpg" class="wp-post-image"></div>
+                  <div class="post-desc">
+                    <h4> <a href="#">The do's and dont'ts of holiday entertaining</a></h4>
+                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span>by Caroline Goddard</span></div>
+                  </div>
+                </li>
+                <li class="post-item">
+                  <div class="post-thumb"><img alt="holidays-coctails" src="images/holidays-coctails.jpg" class="wp-post-image"></div>
+                  <div class="post-desc">
+                    <h4> <a href="#">Party perfect holidays coctails</a></h4>
+                    <div class="entry-author"><img src="images/authors/MarisCallahan.jpg" alt="Maris Callahan" class="img-circle"><span>by Maris Callahan</span></div>
+                  </div>
+                </li>
+                <li class="post-item">
+                  <div class="post-thumb"><img alt="trips-party" src="images/trips-party.jpg" class="wp-post-image"></div>
+                  <div class="post-desc">
+                    <h4> <a href="#">Trips for pulling off a flawless holiday party</a></h4>
+                    <div class="entry-author"><img src="images/authors/MarisCallahan.jpg" alt="Maris Callahan" class="img-circle"><span>by Maris Callahan</span></div>
+                  </div>
+                </li>
+              </ul>
+              <!-- prev and next button<a id="prev" href="#" class="prev">&lt;             </a><a id="next" href="#" class="next">&gt;</a>
+            </div><a href="#" class="view-more">View all articles</a>
+          </div>
+        </section> -->
+
+            <!-- <section class="related-blocks">
+                <section class="col-xs-12 col-lg-9 dmixer-grid dmixer-drink-list">
+                    <h2>Popular drinks</h2>
+                    <ul class="post posts-similar striped-posts">
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama riot" src="images/alabama-riot.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">Baby's bottom</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle">
+                                        <span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="gods alabama slammer" src="images/gods-alabama-slammer.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">gods alabama slammer</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama fizz" src="images/alabama-fizz.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">alabama fizz</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama fizz" src="images/alabama-fizz.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">alabama fizz</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama fizz" src="images/alabama-fizz.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">alabama fizz</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <aside class="col-xs-12 col-lg-3 dmixer-recent">
+                    
+                    <div class="dmixer-aside-widget">
+                      <h2 class="dmixer-recent-title">Newest drinks</h2>
+                      <section class="dmixer-grid dmixer-grid-aside striped-aside">
+                          <div class="row">
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">florida pina colada</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">blue hawaiian</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">kentucky style eggnog</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">bloody mary</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">key west screw driver</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">spiked eggnog</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </section>
+                    </div>
+                    <div class="dmixer-aside-widget">
+                      <div class="aside-ad-slot bordered-block">
+                        <img src="images/aside-ad.png" alt="Absolut">
+                      </div>
+                    </div>
+                    
+                </aside>
+            </section> -->
+            <!-- end related-blocks -->
+
+            <!-- <div class="adv-full-screen"><img src="images/choose-your-holiday.jpg" alt="Choose your holiday"></div> -->
+            <!-- <section class="dmixer-ocassional-block">
+                <h2>Ocassional  drinks</h2>
+                <section class="dmixer-grid dmixer-grid-main">
+                    <div class="row">
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <i class="icon-"></i>
+                                        <img src="images/cocktails/Tropical.jpg" alt="Tropical">
+                                        <footer>
+                                            <h4 class="dmixer-title">Tropical</h4><span class="dmixer-subtitle">104 recepies</span>
+                                        </footer>
+                                    </header>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <img src="images/cocktails/Holidays.jpg" alt="Holidays">
+                                        <footer>
+                                            <h4 class="dmixer-title">Holidays</h4><span class="dmixer-subtitle">89 recepies</span>
+                                        </footer>
+                                    </header>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <img src="images/cocktails/Romantic.jpg" alt="Romantic">
+                                        <footer>
+                                            <h4 class="dmixer-title">Romantic</h4><span class="dmixer-subtitle">41 recepies</span>
+                                        </footer>
+                                    </header> 
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <img src="images/cocktails/Fruity.jpg" alt="Fruity">
+                                            <footer>
+                                            <h4 class="dmixer-title">Fruity</h4><span class="dmixer-subtitle">166 recepies</span>
+                                        </footer>
+                                    </header>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <img src="images/cocktails/Blue-colored.jpg" alt="Blue colored">
+                                        <footer>
+                                            <h4 class="dmixer-title">Blue-colored</h4><span class="dmixer-subtitle">53 recepies</span>
+                                        </footer>
+                                    </header>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <img src="images/cocktails/Frozen.jpg" alt="Frozen">
+                                        <footer>
+                                            <h4 class="dmixer-title">Frozen</h4><span class="dmixer-subtitle">32 recepies</span>
+                                        </footer>
+                                    </header>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <img src="images/cocktails/Morning-time.jpg" alt="Morning time">
+                                        <footer>
+                                            <h4 class="dmixer-title">Morning time</h4><span class="dmixer-subtitle">78 recepies</span>
+                                        </footer>
+                                    </header>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dmixer-item col-xs-6 col-sm-3 col-lg-3">
+                            <div class="dmixer-wrap">
+                                <a href="#" class="dmixer-drink hvr-zoom">
+                                    <header>
+                                        <img src="images/cocktails/Classic.jpg" alt="Classic">
+                                        <footer>
+                                            <h4 class="dmixer-title">Classic</h4><span class="dmixer-subtitle">118 recepies</span>
+                                        </footer>
+                                    </header>
+                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end dmixer-grid 
+            </section> -->
+            <!-- end dmixer-ocassional-block -->
+
+            <!-- <section class="related-blocks">
+                <section class="col-xs-12 col-lg-9 dmixer-grid dmixer-drink-list">
+                    <h2>Popular drinks</h2>
+                    <ul class="post posts-similar striped-posts">
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama riot" src="images/alabama-riot.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">Baby's bottom</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle">
+                                        <span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="gods alabama slammer" src="images/gods-alabama-slammer.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">gods alabama slammer</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama fizz" src="images/alabama-fizz.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">alabama fizz</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama fizz" src="images/alabama-fizz.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">alabama fizz</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+                            </div>
+                        </li>
+                        <li class="post-item">
+                            <div class="post-thumb"><img alt="alabama fizz" src="images/alabama-fizz.jpg">
+                            </div>
+                            <div class="post-desc">
+                                <header class="post-header">
+                                    <h4> <a href="#">alabama fizz</a></h4>
+                                </header>
+                                <section class="post-content">
+                                    <div class="post-category"><i class="icon-short"></i><span class="post-category-name">Shots</span>
+                                    </div>
+                                    <div class="entry-author"><img src="images/authors/CarolineGoddard.jpg" alt="Caroline Goddard" class="img-circle"><span class="entry-author-name">by Caroline Goddard</span>
+                                    </div>
+                                    <footer class="post-footer">Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice</footer>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <aside class="col-xs-12 col-lg-3 dmixer-recent">
+                    
+                    <div class="dmixer-aside-widget">
+                      <h2 class="dmixer-recent-title">Newest drinks</h2>
+                      <section class="dmixer-grid dmixer-grid-aside striped-aside">
+                          <div class="row">
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">florida pina colada</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">blue hawaiian</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">kentucky style eggnog</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">bloody mary</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">key west screw driver</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="dmixer-item col-xs-6 col-sm-3 col-lg-6">
+                                  <div class="dmixer-wrap">
+                                      <div class="dmixer-drink">
+                                          <h4 class="dmixer-title">spiked eggnog</h4>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </section>
+                    </div>
+                    <div class="dmixer-aside-widget">
+                      <div class="aside-ad-slot bordered-block">
+                        <img src="images/aside-ad.png" alt="Absolut">
+                      </div>
+                    </div>
+                    
+                </aside>
+            </section> -->
+            <!-- end related-blocks -->
+
+        </section>
+        <!-- end related-conntent -->
+    </section>
+    <!-- end container 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
+    </script>-->
+
+
+    <!-- <section class="dmixer-search-mobile">
+        <a href="" class="dmixer-search-close"></a>
+
+        
+
+    </section> -->
+    
+    <div id="modal-id" class="modal dmixer-search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="gliphicon-close" id="closed">x</i></button></div>
+            <div class="modal-content">
+                
+                <div class="modal-body">
+                    <form action="" class="dmixer-search-form">
+                        <button class="dmixer-search-button" type="submit">
+                            <em class="icon-search hvr-push"></em>
+                            <span class="icon-search-label">Search</span>
+                        </button>
+                       <!--  <input type="text" class="dmixer-search-input" placeholder="Orange juice" /> -->
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js-build/scripts.js"></script>
+    <script>
+    $(document).ready(function() {
+    });
+    </script>
+</body>
+
+</html>

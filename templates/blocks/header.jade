@@ -1,31 +1,37 @@
-nav(role="navigation").navbar.navbar-default.navbar-fixed-top
+nav(role="navigation").navbar.navbar-default.navbar-fixed-top.dmixer-main-navbar
 	.container
-		.navbar-header
-			a.navbar-brand(href='#') Drinks Mixer
-				img(alt='Drinks Mixer', src='images/logo.png')
-			button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle.collapsed
-				span.sr-only Toggle navigation
-				span.icon-bar
-				span.icon-bar
-				span.icon-bar
-		.collapse.navbar-collapse.navbar-ex1-collapse
-			ul.nav.navbar-nav 
-				li.active: a(href="#") Recipes
-				li: a(href="#") Coctails
-				li: a(href="#") Shots
-				li: a(href="#") Beer
-				li: a(href="#") Non-alcoholic
-				li: a(href="#") More
-			ul.nav.navbar-nav.navbar-right
-				li.dropdown
-					a(href="#", data-toggle="dropdown").dropdown-toggle Dropdown <b class="caret"></b>
-					ul.dropdown-menu(role="menu")
-						li: a(href="#") Action
-						li: a(href="#") Another action
-						li: a(href="#") Something else here
-						li: a(href="#") Separated link
-			form(role="search").navbar-form.navbar-right.dmixer-search
-				.form-group 
-					input(type="text", placeholder="Search").form-control
-				button(type="submit").btn.btn-default
-
+		.navbar-header.dmixer-logo-wrapper
+			h1.navbar-logo
+				a.navbar-brand(href='javascript:void(0);') Drinks Mixer
+					img(alt='Drinks Mixer', src='images/layout/DM-logo-lrg.png')
+			button(type="button", data-toggle="collapse", data-target="#dmixer-navbar-collapsed").navbar-toggle.collapsed Menu
+				span.icon-more
+		.collapse.navbar-collapse#dmixer-navbar-collapsed
+			ul.nav.navbar-nav.dmixer-main-menu 
+				li.dmixer-menu-item: a(href="javascript:void(0);") Recipes
+				li.dmixer-menu-item: a(href="javascript:void(0);") Cocktails
+				li.dmixer-menu-item: a(href="javascript:void(0);") Shots
+				li.dmixer-menu-item: a(href="javascript:void(0);") Beer
+				li.dmixer-menu-item: a(href="javascript:void(0);") Non-alcoholic
+				ul.nav.navbar-left.dmixer-main-submenu
+					li.dropdown.dmixer-menu-item
+						a(href="javascript:void(0);", data-toggle="dropdown" data-expanded="true").dropdown-toggle.hidden-phone More<i class="icon-more" data-expanded="true"></i>
+						ul.dropdown-menu.dmixer-more-menu(role="menu")
+							ul.list-inline
+								li.dmixer-menu-item: a(href="javascript:void(0);") Punches
+								li.dmixer-menu-item: a(href="javascript:void(0);") Liqueurs
+								li.dmixer-menu-item: a(href="javascript:void(0);") Cofee & Tea
+								li.dmixer-menu-item: a(href="javascript:void(0);") Featured Partners
+		.nav.navbar-nav.navbar-right.dmixer-user-profile
+			a.dropdown-toggle.dmixer-user-link(href='javascript:void(0);' data-toggle="dropdown")
+				img.dmixer-user-image(alt='AnyAuthor', src='images/authors/AnyAuthor.png')
+		ul.nav.navbar-nav.navbar-right.dmixer-main-search
+			li.dropdown.dmixer-search-item
+				a.dropdown-toggle(href='javascript:void(0);', data-toggle="dropdown")
+					i.icon-search#button-modal(data-expanded="true")
+				ul.dropdown-menu.dmixer-more-menu.hidden-phone
+					form.navbar-form.dmixer-search(id="dmixer-menu-search", method="", action="", role="search")
+						button.btn.btn-default(type="submit")
+						.form-group.dmixer-form-group
+							i.icon-search
+							input.form-control(type="text",placeholder="search")
