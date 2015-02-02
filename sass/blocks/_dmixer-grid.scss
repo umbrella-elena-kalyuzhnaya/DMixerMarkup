@@ -46,7 +46,6 @@
     line-height: 1em;
     text-transform: uppercase;
     margin-bottom: 0;
-    padding-right: 6px;
     letter-spacing: .3em;
 
     position: relative;
@@ -58,7 +57,8 @@
     text-transform: uppercase;
     color: #fff;
     display: block;
-    padding-top: 12px;
+    padding-top: 8px;
+    letter-spacing: .3em;
   }
   
   &.dmixer-grid-main {
@@ -70,7 +70,7 @@
       padding-bottom: 29.4%;
     } 
     .dmixer-title {
-      max-width: 230px; 
+      /* max-width: 230px;  */
       padding-left: 6px;
       padding-right: 6px;
       margin: auto;
@@ -92,10 +92,31 @@
     .row {
       padding-bottom: 0;
     }
-    .dmixer-wrap {
-    }
     .dmixer-drink {
       background: $aside-list-item;
+      text-align: center;
+      cursor: pointer;
+
+      position: relative;
+      width: 100%;   /* definite width (any) required */
+      height: 100%;  /* definite height (any) required */
+    }
+    .dmixer-title {
+      font-size: 1.1em;
+      line-height: 1.2em;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform(translate(-50%, -50%));
+    }
+  }
+  &.dmixer-grid-centered {
+    padding: 0;
+    .row {
+      padding-bottom: 0;
+    }
+    .dmixer-drink {
       text-align: center;
 
       position: relative;
@@ -121,10 +142,20 @@
     
   }
   @include respond-to(tablet-landscape-and-below) {
+
   }
   @include respond-to(tablet-landscape-and-below) {
+    &.dmixer-grid-aside {
+      .dmixer-title {
+        font-size: 0.8em;
+      }
+    }
     &.dmixer-grid-main {
       padding: 0;
+      .dmixer-title {
+        font-size: 0.8em;
+        letter-spacing: .2em;
+      }
     }
   }
   @include respond-to(tablet-and-below) {
