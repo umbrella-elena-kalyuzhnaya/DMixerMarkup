@@ -9,6 +9,10 @@
             js:
                 files: ['js/**']
                 tasks: ['build:js']
+
+            jade:
+                files: ['templates/**']
+                tasks: ['jade:compile']
                 
         # Compile all JS files into one
         concat:
@@ -72,7 +76,8 @@
     ]
 
     grunt.registerTask 'default', [
-        'jade:compile'
+        'jade:compile',
+        'compass:compile',
         'concat', 
         'uglify'
     ]

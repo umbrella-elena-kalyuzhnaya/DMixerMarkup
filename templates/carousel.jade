@@ -1,22 +1,22 @@
 //dmixer-general-carousel
-section.dmixer-general-carousel
+section.general-carousel
         h2 From the bar
-        .dmixer-carousel-wrapper
-          #dmixer-post-carousel.dmixer-post-carousel
-            ul.dmixer-carousel-list.post.post-circular      
+        .carousel-wrapper
+          #carousel.post-carousel
+            ul.post.post-circular      
               - var items = [['holiday-entertaining','The do\'s and dont\'ts of holiday entertaining','CarolineGoddard','Caroline Goddard' ],['holidays-coctails','Party perfect holidays coctails','MarisCallahan','Maris Callahan' ],['trips-party','Trips for pulling off a flawless holiday party','MarisCallahan','Maris Callahan']]
               - each item, i in items
-                li.dmixer-post-item
-                  .dmixer-post-thumb
+                li.post-item
+                  .post-thumb
                     img(class="wp-post-image",alt="#{item[0]}",src="images/#{item[0]}.jpg")
-                  .dmixer-post-desc
+                  .post-desc
                     h4  
                       a(href="javascript:void(0);") #{item[1]}
-                    .dmixer-entry-author
+                    .entry-author
                       img(src="images/authors/#{item[2]}.jpg",alt="#{item[3]}",class="img-circle")
                       span by #{item[3]}
 
             // prev and next button
-            a#prev.prev.icons-left-advance-arrow(href='#')              
-            a#next.next.icons-right-advance-arrow(href='#') 
+            a#prev.prev.icon-left-advance-arrow(href='#')              
+            a#next.next.icon-right-advance-arrow(href='#') 
           a.view-more(href='#') View all articles   

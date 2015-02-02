@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -8289,8 +8289,8 @@ button.close {
   }
 }
 /* line 130, spirits/*.png */
-.spirits-sprite, .spirits-beer-ale, .spirits-bourbon, .spirits-brandy, .spirits-gin, .spirits-liqueur, .spirits-rum, .spirits-scotch, .spirits-soda, .spirits-tequila, .spirits-vodka, .spirits-whiskey, .spirits-wine {
-  background: url('../images/spirits-s00d0055ec3.png') no-repeat;
+.spirits-sprite, .spirits-beer-ale, .spirits-bourbon, .spirits-brandy, .spirits-gin, .spirits-liqueurs, .spirits-rum, .spirits-scotch, .spirits-soda, .spirits-tequila, .spirits-vodka, .spirits-whiskey, .spirits-wine {
+  background: url('../images/spirits-s6c415c81ee.png') no-repeat;
 }
 
 /* line 130, spirits-xs/*.png */
@@ -8298,84 +8298,84 @@ button.close {
   background: url('../images/spirits-xs-s7035dd1a6a.png') no-repeat;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-beer-ale {
   background-position: 0 -37px;
   height: 200px;
   width: 61px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-bourbon {
   background-position: -65px 0;
   height: 237px;
   width: 95px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-brandy {
   background-position: -164px -2px;
   height: 235px;
   width: 92px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-gin {
   background-position: -260px -1px;
   height: 236px;
   width: 71px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.spirits-liqueur {
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.spirits-liqueurs {
   background-position: -335px -37px;
   height: 200px;
   width: 89px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-rum {
   background-position: -428px 0;
   height: 237px;
   width: 72px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-scotch {
   background-position: -504px -2px;
   height: 235px;
   width: 77px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-soda {
   background-position: -585px -37px;
   height: 200px;
   width: 48px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-tequila {
   background-position: -637px -37px;
   height: 200px;
   width: 117px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-vodka {
   background-position: -758px 0;
   height: 237px;
   width: 72px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-whiskey {
   background-position: -834px -37px;
   height: 200px;
   width: 138px;
 }
 
-/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .spirits-wine {
   background-position: -976px -2px;
   height: 235px;
@@ -8447,7 +8447,7 @@ button.close {
   font-style: normal;
 }
 
-/* line 20, ../sass/_fonts.scss */
+/* line 21, ../sass/_fonts.scss */
 [class^="ico-sc"], [class*=" ico-sc"] {
   font-family: 'social-set';
   speak: none;
@@ -8461,37 +8461,37 @@ button.close {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 33, ../sass/_fonts.scss */
+/* line 34, ../sass/_fonts.scss */
 .ico-sc-search:before {
   content: "\e601";
 }
 
-/* line 36, ../sass/_fonts.scss */
+/* line 37, ../sass/_fonts.scss */
 .ico-sc-like:before {
   content: "\e605";
 }
 
-/* line 39, ../sass/_fonts.scss */
+/* line 40, ../sass/_fonts.scss */
 .ico-sc-gplus:before {
   content: "\e606";
 }
 
-/* line 42, ../sass/_fonts.scss */
+/* line 43, ../sass/_fonts.scss */
 .ico-sc-fb:before {
   content: "\e607";
 }
 
-/* line 45, ../sass/_fonts.scss */
+/* line 46, ../sass/_fonts.scss */
 .ico-sc-tw:before {
   content: "\e608";
 }
 
-/* line 48, ../sass/_fonts.scss */
+/* line 49, ../sass/_fonts.scss */
 .ico-sc-pin:before {
   content: "\e609";
 }
 
-/* line 54, ../sass/_fonts.scss */
+/* line 55, ../sass/_fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icon-set';
   speak: none;
@@ -8505,52 +8505,52 @@ button.close {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 68, ../sass/_fonts.scss */
+/* line 69, ../sass/_fonts.scss */
 .icon-close:before {
   content: "\e608";
 }
 
-/* line 72, ../sass/_fonts.scss */
+/* line 73, ../sass/_fonts.scss */
 .icon-cocktail:before {
   content: "\e600";
 }
 
-/* line 76, ../sass/_fonts.scss */
+/* line 77, ../sass/_fonts.scss */
 .icon-common-right-arrow:before {
   content: "\e609";
 }
 
-/* line 80, ../sass/_fonts.scss */
+/* line 81, ../sass/_fonts.scss */
 .icon-common-left-arrow:before {
   content: "\e601";
 }
 
-/* line 84, ../sass/_fonts.scss */
+/* line 85, ../sass/_fonts.scss */
 .icon-more:before {
   content: "\e603";
 }
 
-/* line 88, ../sass/_fonts.scss */
+/* line 89, ../sass/_fonts.scss */
 .icon-left-advance-arrow:before {
   content: "\e602";
 }
 
-/* line 92, ../sass/_fonts.scss */
+/* line 93, ../sass/_fonts.scss */
 .icon-right-advance-arrow:before {
   content: "\e604";
 }
 
-/* line 96, ../sass/_fonts.scss */
+/* line 97, ../sass/_fonts.scss */
 .icon-search:before {
   content: "\e605";
 }
 
-/* line 100, ../sass/_fonts.scss */
+/* line 101, ../sass/_fonts.scss */
 .icon-short:before {
   content: "\e606";
 }
 
-/* line 104, ../sass/_fonts.scss */
+/* line 105, ../sass/_fonts.scss */
 .icon-soda:before {
   content: "\e607";
 }
@@ -8778,14 +8778,15 @@ button.close {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 1.2s;
+  transition-duration: 1.2s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
 
 /* line 194, ../sass/_effects.scss */
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  background: transparent;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -9276,7 +9277,7 @@ button.close {
 }
 @media only screen and (max-width: 1279px) {
   /* line 163, ../sass/blocks/_dmixer-grid.scss */
-  .dmixer-grid .spirits-sprite, .dmixer-grid .spirits-beer-ale, .dmixer-grid .spirits-bourbon, .dmixer-grid .spirits-brandy, .dmixer-grid .spirits-gin, .dmixer-grid .spirits-liqueur, .dmixer-grid .spirits-rum, .dmixer-grid .spirits-scotch, .dmixer-grid .spirits-soda, .dmixer-grid .spirits-tequila, .dmixer-grid .spirits-vodka, .dmixer-grid .spirits-whiskey, .dmixer-grid .spirits-wine {
+  .dmixer-grid .spirits-sprite, .dmixer-grid .spirits-beer-ale, .dmixer-grid .spirits-bourbon, .dmixer-grid .spirits-brandy, .dmixer-grid .spirits-gin, .dmixer-grid .spirits-liqueurs, .dmixer-grid .spirits-rum, .dmixer-grid .spirits-scotch, .dmixer-grid .spirits-soda, .dmixer-grid .spirits-tequila, .dmixer-grid .spirits-vodka, .dmixer-grid .spirits-whiskey, .dmixer-grid .spirits-wine {
     background: url("../images/spirits-md.png") no-repeat;
     height: 190px;
   }
@@ -9301,7 +9302,7 @@ button.close {
     width: 60px;
   }
   /* line 183, ../sass/blocks/_dmixer-grid.scss */
-  .dmixer-grid .spirits-liqueur {
+  .dmixer-grid .spirits-liqueurs {
     background-position: -267px 100%;
     width: 74px;
   }
@@ -9370,7 +9371,7 @@ button.close {
     bottom: 23%;
   }
   /* line 243, ../sass/blocks/_dmixer-grid.scss */
-  .dmixer-grid .spirits-sprite, .dmixer-grid .spirits-beer-ale, .dmixer-grid .spirits-bourbon, .dmixer-grid .spirits-brandy, .dmixer-grid .spirits-gin, .dmixer-grid .spirits-liqueur, .dmixer-grid .spirits-rum, .dmixer-grid .spirits-scotch, .dmixer-grid .spirits-soda, .dmixer-grid .spirits-tequila, .dmixer-grid .spirits-vodka, .dmixer-grid .spirits-whiskey, .dmixer-grid .spirits-wine, .dmixer-grid .spirits-beer-ale, .dmixer-grid .spirits-bourbon, .dmixer-grid .spirits-brandy, .dmixer-grid .spirits-gin, .dmixer-grid .spirits-liqueur, .dmixer-grid .spirits-rum, .dmixer-grid .spirits-scotch, .dmixer-grid .spirits-soda, .dmixer-grid .spirits-tequila, .dmixer-grid .spirits-vodka, .dmixer-grid .spirits-whiskey, .dmixer-grid .spirits-wine {
+  .dmixer-grid .spirits-sprite, .dmixer-grid .spirits-beer-ale, .dmixer-grid .spirits-bourbon, .dmixer-grid .spirits-brandy, .dmixer-grid .spirits-gin, .dmixer-grid .spirits-liqueurs, .dmixer-grid .spirits-rum, .dmixer-grid .spirits-scotch, .dmixer-grid .spirits-soda, .dmixer-grid .spirits-tequila, .dmixer-grid .spirits-vodka, .dmixer-grid .spirits-whiskey, .dmixer-grid .spirits-wine, .dmixer-grid .spirits-beer-ale, .dmixer-grid .spirits-bourbon, .dmixer-grid .spirits-brandy, .dmixer-grid .spirits-gin, .dmixer-grid .spirits-liqueurs, .dmixer-grid .spirits-rum, .dmixer-grid .spirits-scotch, .dmixer-grid .spirits-soda, .dmixer-grid .spirits-tequila, .dmixer-grid .spirits-vodka, .dmixer-grid .spirits-whiskey, .dmixer-grid .spirits-wine {
     background: url("../images/spirits-xs-s7035dd1a6a.png") no-repeat;
   }
   /* line 246, ../sass/blocks/_dmixer-grid.scss */
@@ -9398,7 +9399,7 @@ button.close {
     width: 26px;
   }
   /* line 266, ../sass/blocks/_dmixer-grid.scss */
-  .dmixer-grid .spirits-liqueur {
+  .dmixer-grid .spirits-liqueurs {
     background-position: -135px 0;
     height: 85px;
     width: 38px;
@@ -9991,19 +9992,19 @@ button.close {
   padding-bottom: 0;
   letter-spacing: .16em;
 }
-/* line 18, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:visited {
   color: white;
 }
-/* line 21, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:focus {
   color: white;
 }
-/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:hover {
   color: white;
 }
-/* line 27, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > .open > a:active {
   color: white;
 }
@@ -10013,19 +10014,19 @@ button.close {
   padding-bottom: 0;
   letter-spacing: .16em;
 }
-/* line 18, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:visited {
   color: white;
 }
-/* line 21, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:focus {
   color: white;
 }
-/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
 }
-/* line 27, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .navbar-default .navbar-nav > li > a:active {
   color: white;
 }
@@ -10332,7 +10333,141 @@ button.close {
   }
 }
 
-/* line 9, ../sass/_general.scss */
+/*  Carousel  */
+/* line 3, ../sass/_carousel.scss */
+.carousel-wrapper {
+  background: #7a706e;
+  border: 1px solid transparent;
+  margin: 0 0 30px 0;
+  padding: 18px 80px 10px 80px;
+}
+@media only screen and (max-width: 1279px) {
+  /* line 3, ../sass/_carousel.scss */
+  .carousel-wrapper {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  /* line 13, ../sass/_carousel.scss */
+  .carousel-wrapper .post-carousel .prev, .carousel-wrapper .post-carousel .next {
+    display: none;
+  }
+  /* line 17, ../sass/_carousel.scss */
+  .carousel-wrapper .view-more {
+    display: block;
+  }
+}
+/* line 22, ../sass/_carousel.scss */
+.carousel-wrapper .dmixer-post-desc h4 {
+  text-transform: none;
+}
+/* line 24, ../sass/_carousel.scss */
+.carousel-wrapper .dmixer-post-desc h4 a {
+  font-family: "Futura W02 Book", sans-serif;
+  letter-spacing: .08em;
+  line-height: 1.24em;
+}
+/* line 28, ../sass/_carousel.scss */
+.carousel-wrapper .dmixer-post-desc h4 a:hover {
+  color: #fff;
+}
+
+/* line 35, ../sass/_carousel.scss */
+.view-more {
+  display: none;
+  padding-top: 10px;
+  height: 48px;
+  background: #d6d6d6;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* line 46, ../sass/_carousel.scss */
+.post-carousel {
+  position: relative;
+  /* Individual setting for previous button */
+  /* Style the pagination button with dot */
+  /* Same as prev and next button, we use the same css sprite */
+}
+/* line 122, ../sass/_colors.scss */
+.post-carousel:before, .post-carousel:after {
+  content: "";
+  display: table;
+}
+/* line 126, ../sass/_colors.scss */
+.post-carousel:after {
+  clear: both;
+}
+/* line 49, ../sass/_carousel.scss */
+.post-carousel ul {
+  padding: 0;
+  list-style: none;
+  display: block;
+  background: #fff;
+}
+/* line 55, ../sass/_carousel.scss */
+.post-carousel li {
+  /* padding: 0 0 0 34px; */
+  display: block;
+  float: left;
+  position: relative;
+  background: #7a706e;
+  height: 100%;
+}
+/* line 62, ../sass/_carousel.scss */
+.post-carousel li img.img-circle {
+  width: 40px;
+  height: 40px;
+  margin-top: 14px;
+}
+/* line 68, ../sass/_carousel.scss */
+.post-carousel .prev, .post-carousel .next {
+  margin-left: 10px;
+  width: 44px;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  outline: none;
+  color: #b5b3ae;
+  height: 28px;
+}
+/* line 79, ../sass/_carousel.scss */
+.post-carousel .prev:before, .post-carousel .next:before {
+  font-size: 4.2em;
+}
+/* line 85, ../sass/_carousel.scss */
+.post-carousel .prev {
+  left: -60px;
+}
+/* line 88, ../sass/_carousel.scss */
+.post-carousel .next {
+  right: -72px;
+}
+/* line 91, ../sass/_carousel.scss */
+.post-carousel .pager {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 97, ../sass/_carousel.scss */
+.post-carousel .pager a {
+  margin: 0 5px 0 0;
+  text-decoration: none;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  text-indent: -999em;
+}
+/* line 104, ../sass/_carousel.scss */
+.post-carousel .pager a.selected {
+  text-decoration: underline;
+}
+
+/* line 10, ../sass/_general.scss */
 body {
   background: #524846;
   color: #fafafa;
@@ -10341,47 +10476,47 @@ body {
   line-height: 24px;
 }
 
-/* line 16, ../sass/_general.scss */
+/* line 17, ../sass/_general.scss */
 html, body {
   height: 100%;
 }
 
-/* line 19, ../sass/_general.scss */
+/* line 21, ../sass/_general.scss */
 a {
   text-decoration: none;
 }
-/* line 23, ../sass/_general.scss */
+/* line 25, ../sass/_general.scss */
 a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
-/* line 27, ../sass/_general.scss */
+/* line 29, ../sass/_general.scss */
 img {
   max-width: 100%;
 }
 
-/* line 30, ../sass/_general.scss */
+/* line 32, ../sass/_general.scss */
 strong {
   font-weight: normal;
 }
 
-/* line 33, ../sass/_general.scss */
+/* line 35, ../sass/_general.scss */
 .container {
   padding: 0;
 }
 
-/* line 36, ../sass/_general.scss */
+/* line 38, ../sass/_general.scss */
 .row {
   padding-bottom: 20px;
   margin-left: -5px;
   margin-right: -5px;
 }
-/* line 40, ../sass/_general.scss */
+/* line 42, ../sass/_general.scss */
 .row.row-overflow {
   overflow: hidden;
 }
 @media only screen and (max-width: 599px) {
-  /* line 36, ../sass/_general.scss */
+  /* line 38, ../sass/_general.scss */
   .row {
     margin-left: 0;
     margin-right: 0;
@@ -10389,34 +10524,34 @@ strong {
 }
 
 /* heading */
-/* line 50, ../sass/_general.scss */
+/* line 53, ../sass/_general.scss */
 h1, h2, h3, h4 {
   margin: 0;
   text-transform: uppercase;
 }
-/* line 53, ../sass/_general.scss */
+/* line 56, ../sass/_general.scss */
 h1 a, h2 a, h3 a, h4 a {
   color: #fafafa;
   font-size: 1em;
 }
 
-/* line 58, ../sass/_general.scss */
+/* line 61, ../sass/_general.scss */
 .visible-phone {
   display: none;
 }
 
 @media only screen and (max-width: 599px) {
-  /* line 62, ../sass/_general.scss */
+  /* line 65, ../sass/_general.scss */
   .visible-phone {
     display: inherit;
   }
 }
-/* line 66, ../sass/_general.scss */
+/* line 69, ../sass/_general.scss */
 h1 {
   font-size: 2.5em;
 }
 
-/* line 69, ../sass/_general.scss */
+/* line 72, ../sass/_general.scss */
 h2 {
   font-size: 2.5em;
   font-family: "Futura W02 Medium", sans-serif;
@@ -10425,49 +10560,49 @@ h2 {
   padding: 0 0 0 1.7%;
 }
 
-/* line 76, ../sass/_general.scss */
+/* line 79, ../sass/_general.scss */
 h3 {
   font-size: 1.8em;
 }
 
-/* line 79, ../sass/_general.scss */
+/* line 82, ../sass/_general.scss */
 h4 {
   font-size: 1.4em;
 }
 
-/* line 82, ../sass/_general.scss */
+/* line 85, ../sass/_general.scss */
 .general-wrapper {
   padding-bottom: 60px;
 }
 @media only screen and (max-width: 599px) {
-  /* line 82, ../sass/_general.scss */
+  /* line 85, ../sass/_general.scss */
   .general-wrapper {
     padding-right: 0;
     padding-left: 0;
   }
 }
 
-/* line 89, ../sass/_general.scss */
+/* line 92, ../sass/_general.scss */
 .header-ad-slot {
   width: 970px;
   margin: 11px auto;
 }
 
-/* line 93, ../sass/_general.scss */
+/* line 96, ../sass/_general.scss */
 .aside-ad-slot {
   text-align: center;
   margin: auto;
   margin-top: 6px;
 }
 
-/* line 98, ../sass/_general.scss */
+/* line 101, ../sass/_general.scss */
 .general-content {
   position: relative;
   padding: 100px 4.285% 0;
   /* 60px/1400px */
   background: url("../images/layout/background.jpg") left top repeat-y;
 }
-/* line 104, ../sass/_general.scss */
+/* line 107, ../sass/_general.scss */
 .general-content .general-slider {
   background: url(../images/layout/carousel-bg.jpg) 0 0 no-repeat;
   position: relative;
@@ -10484,7 +10619,7 @@ h4 {
 .general-content .general-slider:after {
   clear: both;
 }
-/* line 111, ../sass/_general.scss */
+/* line 114, ../sass/_general.scss */
 .general-content .general-slider .common-block {
   position: absolute;
   bottom: 0;
@@ -10493,35 +10628,35 @@ h4 {
   right: 0;
   margin: auto;
 }
-/* line 119, ../sass/_general.scss */
+/* line 122, ../sass/_general.scss */
 .general-content .general-slider .dmixer-slider {
   float: left;
   width: 73.43%;
   /*940px/1280px */
 }
-/* line 123, ../sass/_general.scss */
+/* line 126, ../sass/_general.scss */
 .general-content .general-slider .dmixer-sidebar-sm {
   float: right;
   width: 26.015%;
   /* 333px/1280px */
 }
-/* line 128, ../sass/_general.scss */
+/* line 131, ../sass/_general.scss */
 .general-content .general-search {
   background: rgba(255, 255, 255, 0.8);
   margin-top: 30px;
 }
-/* line 131, ../sass/_general.scss */
+/* line 134, ../sass/_general.scss */
 .general-content .general-search .form-control {
   height: auto;
   font-size: 48px;
   line-height: 66px;
   background: url(../images/layout/dmixer-srch.png) 42% 50% no-repeat;
 }
-/* line 136, ../sass/_general.scss */
+/* line 139, ../sass/_general.scss */
 .general-content .general-search .form-control:focus {
   background-image: none;
 }
-/* line 141, ../sass/_general.scss */
+/* line 144, ../sass/_general.scss */
 .general-content .general-panel {
   margin-top: 54px;
 }
@@ -10534,31 +10669,31 @@ h4 {
 .general-content .general-panel:after {
   clear: both;
 }
-/* line 144, ../sass/_general.scss */
+/* line 147, ../sass/_general.scss */
 .general-content .general-panel h2 {
   line-height: 1em;
 }
-/* line 147, ../sass/_general.scss */
+/* line 150, ../sass/_general.scss */
 .general-content .general-panel .dmixer-grid {
   overflow: hidden;
 }
-/* line 152, ../sass/_general.scss */
+/* line 155, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-sidebar-title {
   padding: 24px 0 12px;
 }
-/* line 155, ../sass/_general.scss */
+/* line 158, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-top-drinks {
   list-style: none;
   -webkit-padding-start: 0;
   padding: 0;
 }
-/* line 11, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .general-content .dmixer-sidebar-sm .dmixer-top-drinks li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 160, ../sass/_general.scss */
+/* line 163, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-top-item {
   background: rgba(237, 237, 237, 0.65);
   padding: 3.3% 3.9% 5.7%;
@@ -10574,7 +10709,7 @@ h4 {
 .general-content .dmixer-sidebar-sm .dmixer-top-item:after {
   clear: both;
 }
-/* line 167, ../sass/_general.scss */
+/* line 170, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-top-item .dmixer-item-title {
   float: left;
   text-transform: uppercase;
@@ -10586,14 +10721,14 @@ h4 {
   min-height: 82px;
   max-width: 52%;
 }
-/* line 178, ../sass/_general.scss */
+/* line 181, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-top-item img {
   float: left;
   width: 121px;
   height: 68px;
   max-width: 100%;
 }
-/* line 185, ../sass/_general.scss */
+/* line 188, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-items-more {
   background: rgba(237, 237, 237, 0.65);
   width: 100%;
@@ -10601,7 +10736,7 @@ h4 {
   display: block;
   padding: 14px 10px 16px;
 }
-/* line 191, ../sass/_general.scss */
+/* line 194, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-items-more .dmixer-more-text {
   position: relative;
   font-size: 1.85em;
@@ -10611,27 +10746,27 @@ h4 {
   letter-spacing: .2em;
   white-space: nowrap;
 }
-/* line 200, ../sass/_general.scss */
+/* line 203, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-items-more .icon-common-right-arrow {
   left: 6px;
   position: relative;
 }
-/* line 205, ../sass/_general.scss */
+/* line 208, ../sass/_general.scss */
 .general-content .dmixer-sidebar-sm .dmixer-top-link {
   display: block;
 }
-/* line 209, ../sass/_general.scss */
+/* line 212, ../sass/_general.scss */
 .general-content .general-carousel {
   margin-top: 10px;
 }
 @media only screen and (max-width: 1279px) {
-  /* line 218, ../sass/_general.scss */
+  /* line 221, ../sass/_general.scss */
   .general-content .general-panel .dmixer-grid.dmixer-grid-aside .dmixer-title {
     font-size: 1em;
   }
 }
 @media only screen and (max-width: 1279px) {
-  /* line 225, ../sass/_general.scss */
+  /* line 228, ../sass/_general.scss */
   .general-content .general-panel {
     /* .dmixer-grid.dmixer-grid-main {
         .dmixer-title {
@@ -10639,41 +10774,62 @@ h4 {
         }
     } */
   }
-  /* line 232, ../sass/_general.scss */
+  /* line 235, ../sass/_general.scss */
   .general-content .general-panel .dmixer-grid.dmixer-grid-aside .dmixer-title {
     font-size: .8em;
   }
-  /* line 238, ../sass/_general.scss */
+  /* line 241, ../sass/_general.scss */
   .general-content .general-slider .dmixer-sidebar-sm {
     width: auto;
     float: none;
   }
-  /* line 244, ../sass/_general.scss */
+  /* line 247, ../sass/_general.scss */
   .general-content .general-slider .dmixer-slider {
     width: 100%;
   }
-  /* line 247, ../sass/_general.scss */
+  /* line 250, ../sass/_general.scss */
   .general-content .general-slider .dmixer-sidebar-sm {
     width: 100%;
   }
+  /* line 258, ../sass/_general.scss */
+  .general-content .dmixer-sidebar-sm .dmixer-top-item {
+    /* 14px 11px 19px 11px */
+  }
+  /* line 263, ../sass/_general.scss */
+  .general-content .dmixer-sidebar-sm .dmixer-top-item .dmixer-item-title {
+    /*font-size: 1.625em;
+    line-height: 1.2em;
+     margin-left: 3%;
+    min-height: 82px;
+    max-width: 52%; */
+  }
+  /* line 270, ../sass/_general.scss */
+  .general-content .dmixer-sidebar-sm .dmixer-top-item img {
+    /* width: 121px;
+    height: 68px; */
+  }
+  /* line 275, ../sass/_general.scss */
+  .general-content .dmixer-sidebar-sm .dmixer-items-more {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 599px) {
-  /* line 98, ../sass/_general.scss */
+  /* line 101, ../sass/_general.scss */
   .general-content {
     padding-right: 0;
     padding-left: 0;
   }
-  /* line 256, ../sass/_general.scss */
+  /* line 293, ../sass/_general.scss */
   .general-content .general-panel {
     margin-top: 2.285%;
   }
-  /* line 258, ../sass/_general.scss */
+  /* line 295, ../sass/_general.scss */
   .general-content .general-panel .dmixer-grid {
     padding: 0;
   }
 }
 
-/* line 265, ../sass/_general.scss */
+/* line 302, ../sass/_general.scss */
 .related-content {
   padding: 0 4.285%;
   /* 60px/1400px */
@@ -10687,31 +10843,31 @@ h4 {
 .related-content .related-blocks:after {
   clear: both;
 }
-/* line 272, ../sass/_general.scss */
+/* line 309, ../sass/_general.scss */
 .related-content .dmixer-recent {
   margin-top: 4.286%;
 }
-/* line 274, ../sass/_general.scss */
+/* line 311, ../sass/_general.scss */
 .related-content .dmixer-recent .dmixer-recent-title {
   padding-top: 6px;
   padding-bottom: 4px;
 }
-/* line 278, ../sass/_general.scss */
+/* line 315, ../sass/_general.scss */
 .related-content .dmixer-recent .dmixer-grid-aside .dmixer-wrap {
   padding: 5px 5px 10px;
 }
 
-/* line 284, ../sass/_general.scss */
+/* line 321, ../sass/_general.scss */
 .social-block .title {
   font-size: 1.6em;
 }
 
-/* line 288, ../sass/_general.scss */
+/* line 325, ../sass/_general.scss */
 .common-block {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 291, ../sass/_general.scss */
+/* line 328, ../sass/_general.scss */
 .common-block .common-block-title {
   background: rgba(237, 237, 237, 0.55);
   color: #48433f;
@@ -10720,7 +10876,7 @@ h4 {
   padding: 5px 0 8px;
   letter-spacing: 0.2em;
 }
-/* line 299, ../sass/_general.scss */
+/* line 336, ../sass/_general.scss */
 .common-block .common-block-content {
   background: rgba(237, 237, 237, 0.75);
   color: #48433f;
@@ -10731,11 +10887,11 @@ h4 {
   -o-transition: all 0.6s;
   transition: all 0.6s;
 }
-/* line 305, ../sass/_general.scss */
+/* line 342, ../sass/_general.scss */
 .common-block .common-block-content:hover {
   background: rgba(237, 237, 237, 0.9);
 }
-/* line 309, ../sass/_general.scss */
+/* line 346, ../sass/_general.scss */
 .common-block button {
   background: none;
   border: none;
@@ -10745,18 +10901,18 @@ h4 {
   padding: 8px 34px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 318, ../sass/_general.scss */
+  /* line 355, ../sass/_general.scss */
   .common-block .common-block-title {
     font-size: .8em;
     padding-top: 6px;
     padding-bottom: 6px;
     letter-spacing: 0.24em;
   }
-  /* line 324, ../sass/_general.scss */
+  /* line 361, ../sass/_general.scss */
   .common-block .common-block-content {
     font-size: 1.25em;
   }
-  /* line 326, ../sass/_general.scss */
+  /* line 363, ../sass/_general.scss */
   .common-block .common-block-content button {
     padding: 6px 16px 6px;
   }
@@ -10772,13 +10928,13 @@ h4 {
   clear: both;
 }
 @media only screen and (max-width: 1279px) {
-  /* line 332, ../sass/_general.scss */
+  /* line 369, ../sass/_general.scss */
   .dmixer-subscribe {
     max-width: 334px;
     margin: auto;
   }
 }
-/* line 338, ../sass/_general.scss */
+/* line 375, ../sass/_general.scss */
 .dmixer-subscribe .dmixer-subscribe-email {
   background: url(../images/icons.png) 0 0 no-repeat;
   height: 61px;
@@ -10786,12 +10942,12 @@ h4 {
   display: inline-block;
   vertical-align: top;
 }
-/* line 345, ../sass/_general.scss */
+/* line 382, ../sass/_general.scss */
 .dmixer-subscribe a {
   display: block;
   text-align: center;
 }
-/* line 349, ../sass/_general.scss */
+/* line 386, ../sass/_general.scss */
 .dmixer-subscribe .dmixer-subscribe-text {
   color: #fff;
   display: inline-block;
@@ -10805,46 +10961,49 @@ h4 {
   letter-spacing: .02em;
 }
 
-/* line 360, ../sass/_general.scss */
+/* line 397, ../sass/_general.scss */
 .dmixer-drink-list {
   margin-top: 4.286%;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 3%;
 }
-/* line 365, ../sass/_general.scss */
+/* line 402, ../sass/_general.scss */
 .dmixer-drink-list .posts-similar {
   margin: 0;
 }
-/* line 368, ../sass/_general.scss */
+/* line 405, ../sass/_general.scss */
 .dmixer-drink-list h2 {
   line-height: 1.1em;
   padding-left: 2.12%;
 }
 
-/* line 373, ../sass/_general.scss */
+/* line 410, ../sass/_general.scss */
 .dmixer-ocassional-block {
   margin-top: 4.286%;
 }
-/* line 375, ../sass/_general.scss */
+/* line 412, ../sass/_general.scss */
 .dmixer-ocassional-block .dmixer-grid {
   padding: 0;
 }
-/* line 377, ../sass/_general.scss */
+/* line 414, ../sass/_general.scss */
 .dmixer-ocassional-block .dmixer-grid .col-lg-3 {
   padding-bottom: 28.4%;
 }
-/* line 382, ../sass/_general.scss */
+/* line 419, ../sass/_general.scss */
 .dmixer-ocassional-block .dmixer-wrap img {
   min-height: 100%;
 }
-/* line 385, ../sass/_general.scss */
-.dmixer-ocassional-block .dmixer-wrap header {
+/* line 423, ../sass/_general.scss */
+.dmixer-ocassional-block .dmixer-wrap .dmixer-drink:hover {
+  background: transparent;
+}
+/* line 428, ../sass/_general.scss */
+.dmixer-ocassional-block .dmixer-wrap .dmixer-drink-image {
   overflow: hidden;
 }
-/* line 387, ../sass/_general.scss */
-.dmixer-ocassional-block .dmixer-wrap header:after {
-  content: "";
+/* line 430, ../sass/_general.scss */
+.dmixer-ocassional-block .dmixer-wrap .dmixer-drink-image .dmixer-drink-overlay {
   display: block;
   position: absolute;
   background: #fff;
@@ -10853,24 +11012,32 @@ h4 {
   right: 0;
   left: 0;
   opacity: 0.5;
+  -webkit-transition: 1.2s;
+  -moz-transition: 1.2s;
+  -o-transition: 1.2s;
+  transition: 1.2s;
 }
-/* line 399, ../sass/_general.scss */
-.dmixer-ocassional-block .dmixer-wrap footer {
+/* line 442, ../sass/_general.scss */
+.dmixer-ocassional-block .dmixer-wrap .dmixer-drink-image:hover .dmixer-drink-overlay {
+  opacity: 0.1;
+}
+/* line 448, ../sass/_general.scss */
+.dmixer-ocassional-block .dmixer-wrap .dmixer-drink-description {
   background: rgba(255, 255, 255, 0.5);
   padding: 20px 10px;
   z-index: 20;
 }
-/* line 405, ../sass/_general.scss */
+/* line 454, ../sass/_general.scss */
 .dmixer-ocassional-block .dmixer-subtitle, .dmixer-ocassional-block .dmixer-title {
   color: #48433f;
 }
 
-/* line 409, ../sass/_general.scss */
+/* line 458, ../sass/_general.scss */
 .adv-block {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 412, ../sass/_general.scss */
+/* line 461, ../sass/_general.scss */
 .adv-block:after, .adv-block:before {
   content: "";
   display: block;
@@ -10879,24 +11046,24 @@ h4 {
   height: 2px;
   background: #a83316;
 }
-/* line 420, ../sass/_general.scss */
+/* line 469, ../sass/_general.scss */
 .adv-block:after {
   margin-top: 20px;
 }
-/* line 423, ../sass/_general.scss */
+/* line 472, ../sass/_general.scss */
 .adv-block:before {
   margin-bottom: 20px;
 }
 
-/* line 427, ../sass/_general.scss */
+/* line 476, ../sass/_general.scss */
 .search-by-letter {
   margin-top: 26px;
 }
-/* line 429, ../sass/_general.scss */
+/* line 478, ../sass/_general.scss */
 .search-by-letter .common-block-title {
   color: #fff;
 }
-/* line 433, ../sass/_general.scss */
+/* line 482, ../sass/_general.scss */
 .search-by-letter .letter-list {
   padding: 0;
   margin-bottom: 0;
@@ -10905,7 +11072,7 @@ text-align: center;
 vertical-align: middle;
 white-space: nowrap; */
 }
-/* line 441, ../sass/_general.scss */
+/* line 490, ../sass/_general.scss */
 .search-by-letter .letter-item {
   display: inline-block;
   vertical-align: top;
@@ -10913,7 +11080,7 @@ white-space: nowrap; */
   font-size: 1.45em;
   line-height: 2em;
 }
-/* line 447, ../sass/_general.scss */
+/* line 496, ../sass/_general.scss */
 .search-by-letter .letter-item a {
   color: #fafafa;
   text-transform: uppercase;
@@ -10925,24 +11092,24 @@ white-space: nowrap; */
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-/* line 454, ../sass/_general.scss */
+/* line 503, ../sass/_general.scss */
 .search-by-letter .letter-item a:hover {
   color: #7f716e;
   margin-top: -2px;
 }
 
-/* line 461, ../sass/_general.scss */
+/* line 510, ../sass/_general.scss */
 .post {
   padding: 0;
   list-style-type: none;
 }
-/* line 464, ../sass/_general.scss */
+/* line 513, ../sass/_general.scss */
 .post .post-item {
   position: relative;
   overflow: hidden;
   width: 50%;
 }
-/* line 469, ../sass/_general.scss */
+/* line 518, ../sass/_general.scss */
 .post .post-thumb {
   display: block;
   float: left;
@@ -10950,16 +11117,16 @@ white-space: nowrap; */
   cursor: pointer;
   width: 36%;
 }
-/* line 477, ../sass/_general.scss */
+/* line 526, ../sass/_general.scss */
 .post .post-desc {
   display: block;
   float: left;
 }
-/* line 481, ../sass/_general.scss */
+/* line 530, ../sass/_general.scss */
 .post .post-desc .post-header h4 {
   letter-spacing: 0.5em;
 }
-/* line 485, ../sass/_general.scss */
+/* line 534, ../sass/_general.scss */
 .post .post-desc .post-content {
   position: relative;
   display: block;
@@ -10967,37 +11134,37 @@ white-space: nowrap; */
   color: #f4d8d2;
   font-size: 1.3em;
 }
-/* line 492, ../sass/_general.scss */
+/* line 541, ../sass/_general.scss */
 .post .post-desc .post-footer {
   font-size: 0.85em;
   padding-top: 5px;
   width: 100%;
 }
-/* line 498, ../sass/_general.scss */
+/* line 547, ../sass/_general.scss */
 .post .post-category {
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 501, ../sass/_general.scss */
+/* line 550, ../sass/_general.scss */
 .post .post-category .post-category-name {
   font-family: "Futura W02 Light", sans-serif;
   line-height: 1.1em;
   padding-left: 10px;
 }
-/* line 506, ../sass/_general.scss */
+/* line 555, ../sass/_general.scss */
 .post .post-category i {
   font-size: 28px;
 }
-/* line 510, ../sass/_general.scss */
+/* line 559, ../sass/_general.scss */
 .post .entry-author {
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 513, ../sass/_general.scss */
+/* line 562, ../sass/_general.scss */
 .post .entry-author .entry-author-name {
   line-height: 1.1em;
 }
-/* line 516, ../sass/_general.scss */
+/* line 565, ../sass/_general.scss */
 .post .entry-author .img-circle {
   width: 40px;
   height: 40px;
@@ -11006,17 +11173,17 @@ white-space: nowrap; */
   margin-right: 8px;
 }
 
-/* line 526, ../sass/_general.scss */
+/* line 575, ../sass/_general.scss */
 .post-circular .entry-author {
   font-size: 1em;
 }
-/* line 529, ../sass/_general.scss */
+/* line 578, ../sass/_general.scss */
 .post-circular .post-desc {
   display: block;
   float: left;
   width: 58%;
 }
-/* line 533, ../sass/_general.scss */
+/* line 582, ../sass/_general.scss */
 .post-circular .post-desc .post-content {
   position: relative;
   display: block;
@@ -11024,76 +11191,76 @@ white-space: nowrap; */
   color: #f4d8d2;
   font-size: 1.3em;
 }
-/* line 540, ../sass/_general.scss */
+/* line 589, ../sass/_general.scss */
 .post-circular .post-desc .post-footer {
   font-size: 0.85em;
   padding-top: 5px;
   width: 100%;
 }
 @media only screen and (max-width: 1279px) {
-  /* line 547, ../sass/_general.scss */
+  /* line 596, ../sass/_general.scss */
   .post-circular .post-item {
     border-bottom: 1px solid #ECECEC;
     margin-bottom: 13px;
     padding: 13px;
     width: 100%;
   }
-  /* line 553, ../sass/_general.scss */
+  /* line 602, ../sass/_general.scss */
   .post-circular .post-thumb {
     width: 20%;
   }
-  /* line 556, ../sass/_general.scss */
+  /* line 605, ../sass/_general.scss */
   .post-circular .post-desc {
     width: 76%;
   }
-  /* line 559, ../sass/_general.scss */
+  /* line 608, ../sass/_general.scss */
   .post-circular .entry-author {
     bottom: 13px;
   }
 }
 
-/* line 564, ../sass/_general.scss */
+/* line 613, ../sass/_general.scss */
 .posts-similar {
   padding: 0;
 }
-/* line 566, ../sass/_general.scss */
+/* line 615, ../sass/_general.scss */
 .posts-similar .post-item {
   padding: 15px 2.12%;
   background: transparent;
   width: 100%;
 }
-/* line 571, ../sass/_general.scss */
+/* line 620, ../sass/_general.scss */
 .posts-similar .post-thumb {
   width: 21.65%;
 }
-/* line 574, ../sass/_general.scss */
+/* line 623, ../sass/_general.scss */
 .posts-similar .post-category {
   display: inline-block;
   vertical-align: bottom;
   padding-bottom: 14px;
 }
-/* line 578, ../sass/_general.scss */
+/* line 627, ../sass/_general.scss */
 .posts-similar .post-category .post-category-name {
   font-family: "Futura W02 Light", sans-serif;
   line-height: 1.1em;
   padding-left: 10px;
 }
-/* line 583, ../sass/_general.scss */
+/* line 632, ../sass/_general.scss */
 .posts-similar .post-category i {
   font-size: 28px;
 }
-/* line 587, ../sass/_general.scss */
+/* line 636, ../sass/_general.scss */
 .posts-similar .entry-author {
   display: inline-block;
   vertical-align: bottom;
   margin-left: 0.8em;
   padding-bottom: 14px;
 }
-/* line 592, ../sass/_general.scss */
+/* line 641, ../sass/_general.scss */
 .posts-similar .entry-author .entry-author-name {
   line-height: 1.1em;
 }
-/* line 595, ../sass/_general.scss */
+/* line 644, ../sass/_general.scss */
 .posts-similar .entry-author .img-circle {
   width: 40px;
   height: 40px;
@@ -11101,28 +11268,28 @@ white-space: nowrap; */
   vertical-align: bottom;
   margin-right: 8px;
 }
-/* line 604, ../sass/_general.scss */
+/* line 653, ../sass/_general.scss */
 .posts-similar .post-desc h4 {
   margin: 0;
   padding: 5px 0 0;
 }
-/* line 607, ../sass/_general.scss */
+/* line 656, ../sass/_general.scss */
 .posts-similar .post-desc h4 a {
   color: #fafafa;
   font-size: 1.45em;
   line-height: 1em;
 }
 
-/* line 617, ../sass/_general.scss */
+/* line 666, ../sass/_general.scss */
 .striped-posts li:nth-child(odd) {
   background: rgba(127, 113, 110, 0.6);
 }
 
-/* line 624, ../sass/_general.scss */
+/* line 673, ../sass/_general.scss */
 .striped-aside li:nth-child(odd) {
   background: rgba(127, 113, 110, 0.6);
 }
-/* line 627, ../sass/_general.scss */
+/* line 676, ../sass/_general.scss */
 .striped-aside li:nth-child(even) {
   background: rgba(127, 113, 110, 0.4);
 }
@@ -11137,12 +11304,12 @@ white-space: nowrap; */
   clear: both;
 }
 
-/* line 635, ../sass/_general.scss */
+/* line 684, ../sass/_general.scss */
 .hide-block {
   display: block;
 }
 
-/* line 638, ../sass/_general.scss */
+/* line 687, ../sass/_general.scss */
 .bordered-block {
   margin-top: 20px;
 }
@@ -11162,26 +11329,26 @@ white-space: nowrap; */
   margin-bottom: 24px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 638, ../sass/_general.scss */
+  /* line 687, ../sass/_general.scss */
   .bordered-block {
     margin-top: 10px;
   }
-  /* line 642, ../sass/_general.scss */
+  /* line 691, ../sass/_general.scss */
   .bordered-block:before {
     width: 94%;
   }
 }
 
-/* line 647, ../sass/_general.scss */
+/* line 696, ../sass/_general.scss */
 .dmixer-recent {
   padding: 0;
   /* @include bordered-block(); */
 }
-/* line 651, ../sass/_general.scss */
+/* line 700, ../sass/_general.scss */
 .dmixer-recent:before {
   margin-bottom: 16px;
 }
-/* line 654, ../sass/_general.scss */
+/* line 703, ../sass/_general.scss */
 .dmixer-recent .dmixer-recent-title {
   margin-bottom: 4px;
   text-align: center;
@@ -11192,20 +11359,25 @@ white-space: nowrap; */
   letter-spacing: 0.2em;
 }
 
-/* line 665, ../sass/_general.scss */
+/* line 714, ../sass/_general.scss */
 .mode-prevent-scroll {
   overflow: hidden;
   height: 100%;
 }
 
-/* line 670, ../sass/_general.scss */
+/* line 719, ../sass/_general.scss */
 .aside-ad-slot.bordered-block {
   margin-top: 8px;
 }
-/* line 672, ../sass/_general.scss */
+/* line 721, ../sass/_general.scss */
 .aside-ad-slot.bordered-block:before {
   width: 88%;
-  margin-bottom: 18%;
+  margin-bottom: 18px;
+}
+
+/* line 727, ../sass/_general.scss */
+.adv-full-screen {
+  padding-top: 40px;
 }
 
 /*  Carousel  */
@@ -11233,17 +11405,17 @@ white-space: nowrap; */
   }
 }
 /* line 22, ../sass/_carousel.scss */
-.carousel-wrapper .post-desc h4 {
+.carousel-wrapper .dmixer-post-desc h4 {
   text-transform: none;
 }
 /* line 24, ../sass/_carousel.scss */
-.carousel-wrapper .post-desc h4 a {
+.carousel-wrapper .dmixer-post-desc h4 a {
   font-family: "Futura W02 Book", sans-serif;
   letter-spacing: .08em;
   line-height: 1.24em;
 }
 /* line 28, ../sass/_carousel.scss */
-.carousel-wrapper .post-desc h4 a:hover {
+.carousel-wrapper .dmixer-post-desc h4 a:hover {
   color: #fff;
 }
 

@@ -5,6 +5,7 @@
 @import "blocks/social-block";
 @import "blocks/main-navbar";
 @import "blocks/dmixer-slider";
+@import "carousel";
 
 body {
     background: $main-bg;
@@ -16,6 +17,7 @@ body {
 html, body {
     height: 100%;
 }
+
 a {
     text-decoration: none;
     &:hover,
@@ -41,6 +43,7 @@ strong {
         overflow: hidden;
     }
     @include respond-to(mobile-landscape-and-below) {
+
         margin-left: 0;
         margin-right: 0;
     }
@@ -248,6 +251,40 @@ h4 {
                 width: 100%;
             }
         }
+        .dmixer-sidebar-sm {
+            .dmixer-sidebar-title {
+                //padding: 24px 0 12px;
+            }
+            .dmixer-top-item {
+                //padding: 3.3% 3.9% 5.7%;
+                /* 14px 11px 19px 11px */
+                
+                //margin-bottom: 8px;
+                .dmixer-item-title {;
+                    /*font-size: 1.625em;
+                    line-height: 1.2em;
+                     margin-left: 3%;
+                    min-height: 82px;
+                    max-width: 52%; */
+                }
+                img {
+                    /* width: 121px;
+                    height: 68px; */
+                }
+            }
+            .dmixer-items-more {
+                text-align: center;
+                //padding: 14px 10px 16px;
+                .dmixer-more-text {
+                    //font-size: 1.85em;
+                    //line-height: 1.2em;
+                    //letter-spacing: .2em;
+                }
+                .icon-common-right-arrow {
+                    //left: 6px;
+                }
+            }
+        }
     }
     @include respond-to(tablet-landscape-and-below) {} 
     @include respond-to(mobile-landscape-and-below) {
@@ -382,10 +419,15 @@ h4 {
         img {
             min-height: 100%;
         }
-        header {
+        .dmixer-drink {
+            &:hover {
+                background: transparent;
+            }
+            
+        }
+        .dmixer-drink-image {
             overflow: hidden;
-            &:after {
-                content: "";
+            .dmixer-drink-overlay {
                 display: block;
                 position: absolute;
                 background: #fff;
@@ -394,9 +436,16 @@ h4 {
                 right: 0;
                 left: 0;
                 opacity: 0.5;
+                @include transition (1.2s);
+            }
+            &:hover {
+                .dmixer-drink-overlay {
+                    opacity: 0.1;
+
+                }
             }
         }
-        footer {
+        .dmixer-drink-description {
             background: rgba(255, 255, 255, 0.5);
             padding: 20px 10px;
             z-index: 20;
@@ -674,4 +723,7 @@ h4 {
         margin-bottom: 18px;
     }
     
+}
+.adv-full-screen {
+    padding-top: 40px;
 }

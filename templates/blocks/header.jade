@@ -1,37 +1,65 @@
 nav(role="navigation").navbar.navbar-default.navbar-fixed-top.dmixer-main-navbar
-	.container
-		.navbar-header.dmixer-logo-wrapper
-			h1.navbar-logo
-				a.navbar-brand(href='javascript:void(0);') Drinks Mixer
-					img(alt='Drinks Mixer', src='images/layout/DM-logo-lrg.png')
-			button(type="button", data-toggle="collapse", data-target="#dmixer-navbar-collapsed").navbar-toggle.collapsed Menu
-				span.icon-more
-		.collapse.navbar-collapse#dmixer-navbar-collapsed
-			ul.nav.navbar-nav.dmixer-main-menu 
-				li.dmixer-menu-item: a(href="javascript:void(0);") Recipes
-				li.dmixer-menu-item: a(href="javascript:void(0);") Cocktails
-				li.dmixer-menu-item: a(href="javascript:void(0);") Shots
-				li.dmixer-menu-item: a(href="javascript:void(0);") Beer
-				li.dmixer-menu-item: a(href="javascript:void(0);") Non-alcoholic
-				ul.nav.navbar-left.dmixer-main-submenu
-					li.dropdown.dmixer-menu-item
-						a(href="javascript:void(0);", data-toggle="dropdown" data-expanded="true").dropdown-toggle.hidden-phone More<i class="icon-more" data-expanded="true"></i>
-						ul.dropdown-menu.dmixer-more-menu(role="menu")
-							ul.list-inline
-								li.dmixer-menu-item: a(href="javascript:void(0);") Punches
-								li.dmixer-menu-item: a(href="javascript:void(0);") Liqueurs
-								li.dmixer-menu-item: a(href="javascript:void(0);") Cofee & Tea
-								li.dmixer-menu-item: a(href="javascript:void(0);") Featured Partners
-		.nav.navbar-nav.navbar-right.dmixer-user-profile
-			a.dropdown-toggle.dmixer-user-link(href='javascript:void(0);' data-toggle="dropdown")
-				img.dmixer-user-image(alt='AnyAuthor', src='images/authors/AnyAuthor.png')
-		ul.nav.navbar-nav.navbar-right.dmixer-main-search
-			li.dropdown.dmixer-search-item
-				a.dropdown-toggle(href='javascript:void(0);', data-toggle="dropdown")
-					i.icon-search#button-modal(data-expanded="true")
-				ul.dropdown-menu.dmixer-more-menu.hidden-phone
-					form.navbar-form.dmixer-search(id="dmixer-menu-search", method="", action="", role="search")
-						button.btn.btn-default(type="submit")
-						.form-group.dmixer-form-group
-							i.icon-search
-							input.form-control(type="text",placeholder="search")
+    .container
+
+        .navbar-header.dmixer-logo-wrapper
+            h1.navbar-logo
+                a.navbar-brand(href="javascript:void(0);") Drinks Mixer
+                    img(alt="Drinks Mixer", src="images/layout/DM-logo-lrg.png")
+            button(type="button", data-toggle="collapse", data-target="#dmixer-navbar-collapsed").navbar-toggle.collapsed Menu
+                span.icon-more
+
+
+        .collapse.navbar-collapse#dmixer-navbar-collapsed
+
+            ul.nav.navbar-nav.dmixer-main-menu 
+                li.dmixer-menu-item: a(href="javascript:void(0);") Cocktails
+                li.dmixer-menu-item: a(href="javascript:void(0);") Shots
+                li.dmixer-menu-item: a(href="javascript:void(0);") Beer
+                li.dmixer-menu-item: a(href="javascript:void(0);") Non-alcoholic
+                ul.nav.navbar-left.dmixer-main-submenu
+                    li.dropdown.dmixer-menu-item
+                        a(href="javascript:void(0);", data-toggle="dropdown" data-expanded="true").dropdown-toggle.hidden-phone More<i class="icon-more" data-expanded="true"></i>
+                        ul.dropdown-menu.dmixer-more-menu(role="menu")
+                            ul.list-inline
+                                li.dmixer-menu-item: a(href="javascript:void(0);") Punches
+                                li.dmixer-menu-item: a(href="javascript:void(0);") Liqueurs
+                                li.dmixer-menu-item: a(href="javascript:void(0);") #{"Cofee & Tea"}
+                                li.dmixer-menu-item: a(href="javascript:void(0);") Featured Partners
+
+            .social-block.social-block-navbar.visible-phone
+                .social-content
+                  ul.social-icons
+                    - var items = ['fb','tw','pin','gplus','like']
+                    - each item, i in items
+                      li.social-item
+                        a(href="javascript:void(0);")
+                          i(class="ico-sc-#{item}")
+                  .dmixer-subscribe
+                    a(href="javascript:void(0);")
+                      i(class="dmixer-subscribe-email")
+                      span.dmixer-subscribe-text Keep up-to-date with everything happening here at DrinksMixer
+            
+            nav.dmixer-navbar-footer.visible-phone
+                ul.dmixer-footer-list.list-inline
+                    li.dimixer-footer-item
+                        a(href="javascript:void(0);") Contact Us
+                        a(href="javascript:void(0);") Advertise
+                        a(href="javascript:void(0);") <i class="icon-ad-choices"></i>AdChoices</a>
+                        a(href="javascript:void(0);") Careers
+                        a(href="javascript:void(0);") Privacy
+                        a(href="javascript:void(0);") #{"Terms &amp Conditions"}
+
+
+        .nav.navbar-nav.navbar-right.dmixer-user-profile
+            a.dropdown-toggle.dmixer-user-link(href='javascript:void(0);' data-toggle="dropdown")
+                img.dmixer-user-image(alt='AnyAuthor', src='images/authors/AnyAuthor.png')
+        ul.nav.navbar-nav.navbar-right.dmixer-main-search
+            li.dropdown.dmixer-search-item
+                a.dropdown-toggle(href='javascript:void(0);', data-toggle="dropdown")
+                    i.icon-search#button-modal(data-expanded="true")
+                ul.dropdown-menu.dmixer-more-menu.hidden-phone
+                    form.navbar-form.dmixer-search(id="dmixer-menu-search", method="", action="", role="search")
+                        button.btn.btn-default(type="submit")
+                        .form-group.dmixer-form-group
+                            i.icon-search
+                            input.form-control(type="text",placeholder="search")

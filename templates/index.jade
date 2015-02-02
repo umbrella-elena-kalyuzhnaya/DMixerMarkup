@@ -21,47 +21,57 @@ block append content
         //general-slider
 
         section.general-slider
-            div.dmixer-slider-homepage
-                ul.dmixer-slider-list#dmixer-slider-mainp
-                    li.dmixer-slide-item
+            div.dmixer-slider.dmixer-slider-responsive
+                ul.dmixer-slider-list#dmixer-slider-main
+                    li.dmixer-slider-item
+                        img.dmixer-slider-image(src="images/AlabamaSlammer.jpg", alt="AlabamaSlammer")
+                        .dmixer-slider-description
+                            h3.dmixer-slider-subject Drink of the month
+                            strong.dmixer-slider-title Alabama Slammer
+                    li.dmixer-slider-item
                         img(src="images/AlabamaSlammer.jpg", alt="AlabamaSlammer")
-                        h3.dimexer-slider-subject Drink of the month
-                        strong.dimexer-slider-subject Alabama Slammer
-                    li.dmixer-slide-item
+                        .dmixer-slider-description
+                            h3.dmixer-slider-subject Drink of the month
+                            strong.dmixer-slider-title Alabama Slammer
+                    li.dmixer-slider-item
                         img(src="images/AlabamaSlammer.jpg", alt="AlabamaSlammer")
-                        h3.dimexer-slider-subject Drink of the month
-                        strong.dimexer-slider-subject Alabama Slammer
-                    li.dmixer-slide-item
+                        .dmixer-slider-description
+                            h3.dmixer-slider-subject Drink of the month
+                            strong.dmixer-slider-title Alabama Slammer
+                    li.dmixer-slider-item
                         img(src="images/AlabamaSlammer.jpg", alt="AlabamaSlammer")
-                        h3.dimexer-slider-subject Drink of the month
-                        strong.dimexer-slider-subject Alabama Slammer
-                    li.dmixer-slide-item
-                        img(src="images/AlabamaSlammer.jpg", alt="AlabamaSlammer")
-                        h3.dimexer-slider-subject Drink of the month
-                        strong.dimexer-slider-subject Alabama Slammer
+                        .dmixer-slider-description
+                            h3.dmixer-slider-subject Drink of the month
+                            strong.dmixer-slider-title Alabama Slammer
+                .clearfix
+                a.dmixer-slider-prev#dmixer-main-prev(href="javascript:void(0);")
+                    i.icon-common-left-arrow.hvr-grow
+                a.dmixer-slider-next#dmixer-main-next(href="javascript:void(0);")
+                    i.icon-common-right-arrow.hvr-grow
 
-        //general-slider-sm
+            //general-slider-sm
 
-        section.dmixer-sidebar-sm
-            h2.dimixer-sidebar-title Highlights 
+            section.dmixer-sidebar-sm
+                h2.dimixer-sidebar-title Highlights 
 
-            //general-top-drinks
+                //general-top-drinks
 
-            ul.dmixer-top-drinks
-                li.dmixer-top-item
-                    a.dmixer-top-link(href="javascript:void(0);")
-                        img(src="images/top-drinks/highlights-drink-1.jpg", alt="highlights-drink-1")
-                        span.dmixer-item-title The kicker
-                li.dmixer-top-item
-                    a.dmixer-top-link(href="javascript:void(0);")
-                        img(src="images/top-drinks/highlights-drink-2.jpg", alt="highlights-drink-2")
-                        span.dmixer-item-title The kicker
-                li.dmixer-top-item
-                    a.dmixer-top-link(href="javascript:void(0);")
-                        img(src="images/top-drinks/highlights-drink-3.jpg", alt="highlights-drink-3")
-                        span.dmixer-item-title The kicker
-            a.dmixer-items-more(href="javascript:void(0);")
-                span.dmixer-more-text More drinks<i class="icon-common-right-arrow"></i>
+                ul.dmixer-top-drinks
+                    li.dmixer-top-item
+                        a.dmixer-top-link(href="javascript:void(0);")
+                            img(src="images/top-drinks/highlights-drink-1.jpg", alt="highlights-drink-1")
+                            span.dmixer-item-title The kicker
+                    li.dmixer-top-item
+                        a.dmixer-top-link(href="javascript:void(0);")
+                            img(src="images/top-drinks/highlights-drink-2.jpg", alt="highlights-drink-2")
+                            span.dmixer-item-title The kicker
+                    li.dmixer-top-item
+                        a.dmixer-top-link(href="javascript:void(0);")
+                            img(src="images/top-drinks/highlights-drink-3.jpg", alt="highlights-drink-3")
+                            span.dmixer-item-title The kicker
+                a.dmixer-items-more(href="javascript:void(0);")
+                    span.dmixer-more-text More drinks
+                        i.icon-common-right-arrow
 
 
         include ./carousel.jade
@@ -69,19 +79,19 @@ block append content
         //general-panel
 
         section.general-panel
-            section.col-xs-12.col-lg-9.dmixer-grid.dmixer-grid-main
+            section.col-xs-12.col-md-9.dmixer-grid.dmixer-grid-main
                 h2.hidden-phone Search by spirit
                 .row
-                    - var items = [['vodka','1611'], ['rum','1455'], ['tequila','339'],['whiskey','760'], ['brandy','108'], ['bourbon','50'], ['scotch','25'], ['liqueurs','68'], ['gin','759'], ['beer','342'], ['wine','139'], ['non-alcoholic','736']]
+                    - var items = [['vodka','vodka','1611'], ['rum','1455'], ['tequila','tequila','339'],['whiskey','whiskey','760'], ['brandy','brandy','108'], ['bourbon','bourbon','50'], ['scotch','scotch','25'], ['liqueurs','liqueurs','68'], ['gin','gin','759'], ['beer-ale','beer','342'], ['wine','wine','139'], ['soda','non-alcoholic','736']]
                     - each item, i in items
-                        div.dmixer-item.col-xs-6.col-sm-4.col-lg-3
+                        div.dmixer-item.col-xs-4.col-sm-4.col-lg-3
                             .dmixer-wrap
-                            a.dmixer-drink.rollover-text-buble-up(href="javascript:void(0);")
-                                i(class="spirits-#{item[0]}")
-                                span.dmixer-drink-description
-                                    
-                                    strong.dmixer-title #{item[0]}
-                                        span.dmixer-subtitle.hidden-phone #{item[1]} recepies
+                                a.dmixer-drink.rollover-text-buble-up(href="javascript:void(0);")
+                                    i(class="spirits-#{item[0]}")
+                                    span.dmixer-drink-description
+                                        
+                                        strong.dmixer-title #{item[1]}
+                                        span.dmixer-subtitle.hidden-phone #{item[2]} recepies
 
             aside.col-xs-12.col-md-3.dmixer-recent
              .common-block
@@ -89,19 +99,32 @@ block append content
                 .common-block-content 
                   button Submit your own
               .social-block
-                .title Join us at the bar
-                .content
+                .social-title Join us at the bar
+                .social-content
                   ul.social-icons
                     - var items = ['fb','tw','pin','gplus','like']
                     - each item, i in items
                       li.social-item
                         a(href="javascript:void(0);")
-                          i(class="icon-#{item}")
+                          i(class="ico-sc-#{item}")
                   .dmixer-subscribe
                     a(href="javascript:void(0);")
                       i(class="icon-email")
                       span.dmixer-subscribe-text Keep up-to-date with everything happening here at DrinksMixer
-              .adv-block
+
+              section.dmixer-recent.bordered-block
+                  h2.dmixer-recent-title Top picks
+                  section.dmixer-grid.dmixer-grid-aside
+                    .row
+                      - var items = [['caribou lou','caribou-lou'],['jager bomb','jager-bomb'],['irish car bomb','irish-car-bomb'],['long island iced tea','long-tea'],['italian apple martini','it-apple-martini'],['amaretto sour','amaretto-sour']]
+                      //-,['mojito diablo','mojito-diablo'],['jungle juice','jungle-juice'],['mojito','mojito'],['red headed slut','red-headed-slut'],['buttery nipple','buttery-nipple'],['ice bomb','ice-bomb']]
+                      - each item, i in items
+                        div.dmixer-item.col-xs-4.col-sm-3.col-md-6
+                          .dmixer-wrap
+                            a.dmixer-drink.rollover-text-buble(href="javascript:void(0);")
+                                //- i(class="icon-#{item[1]}")
+                                h3.dmixer-title #{item[0]}       
+              //-.adv-block
                   img(src="images/award-winning.jpg", alt="Award wining")
 
         //search-by-letter
@@ -116,24 +139,14 @@ block append content
                             a(href="javascript:void(0);") #{item}
 
         //dmixer-recent
-        section.dmixer-recent.bordered-block
-          h2.dmixer-recent-title Top picks
-          section.dmixer-grid.dmixer-grid-aside
-            .row
-              - var items = [['caribou lou','caribou-lou'],['jager bomb','jager-bomb'],['irish car bomb','irish-car-bomb'],['long island iced tea','long-tea'],['italian apple martini','it-apple-martini'],['amaretto sour','amaretto-sour'],['mojito diablo','mojito-diablo'],['jungle juice','jungle-juice'],['mojito','mojito'],['red headed slut','red-headed-slut'],['buttery nipple','buttery-nipple'],['ice bomb','ice-bomb']]
-              - each item, i in items
-                div.dmixer-item.col-xs-4.col-sm-3.col-md-6
-                  .dmixer-wrap
-                    a.dmixer-drink.rollover-text-buble(href="javascript:void(0);")
-                        //- i(class="icon-#{item[1]}")
-                        h3.dmixer-title #{item[0]}
+        
       //related-content
       section.related-content
         section.related-blocks
           section.col-xs-12.col-lg-9.dmixer-grid.dmixer-drink-list
             h2 Popular drinks
             ul.post.posts-similar.striped-posts         
-                 - var items = [['alabama-riot','alabama riot','CarolineGoddard','Caroline Goddard'],['gods-alabama-slammer','god\s alabama slammer','CarolineGoddard','Caroline Goddard'],['alabama-fizz','alabama fizz','CarolineGoddard','Caroline Goddard']]
+                 - var items = [['alabama-riot','alabama riot','CarolineGoddard','Caroline Goddard'],['gods-alabama-slammer','god\s alabama slammer','CarolineGoddard','Caroline Goddard'],['alabama-fizz','alabama fizz','CarolineGoddard','Caroline Goddard'],['alabama-fizz','alabama fizz','CarolineGoddard','Caroline Goddard'],['gods-alabama-slammer','god\s alabama slammer','CarolineGoddard','Caroline Goddard']]
                  - each item, i in items
                   li.post-item
                     .post-thumb
@@ -145,53 +158,46 @@ block append content
                       section.post-content
                         .post-category
                           i(class="icon-alabama-riot")
-                          span Shots
+                          span.post-category-name Shots
                         .entry-author
                           img(src="images/authors/#{item[2]}.jpg",alt="#{item[3]}",class="img-circle")
-                          span by #{item[3]}
-                      footer.post-footer Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice
+                          span.entry-author-name by #{item[3]}
+                        footer.post-footer Contains: peach liqueur, pepermint schnapps, vodka, fruit punch, lime juice
 
           aside.col-xs-12.col-lg-3.dmixer-recent
-            h2 Newest drinks
-            section.dmixer-grid
-              .row
-                - var items = [['florida pina colada','florida-pina-colada'],['blue hawaiian','blue-hawaiian'],['kentucky style eggnog','kentucky-style-eggnog'],['bloody mary','bloody-mary'],['key west screw driver','key-west'],['spiked eggnog','spiked-eggnog']]
-                - each item, i in items
-                  div.dmixer-item.col-xs-6.col-sm-3.col-lg-6
-                    .dmixer-wrap
-                      .dmixer-drink
-                        header
-                          i(class="icon-#{item[1]}")
-                        footer
-                          h4.dmixer-title #{item[0]}
+            .dmixer-aside-widget
+                h2.dmixer-recent-title Newest drinks
+                section.dmixer-grid.dmixer-grid-aside.striped-aside
+                  .row
+                    - var items = [['florida pina colada','florida-pina-colada'],['blue hawaiian','blue-hawaiian'],['kentucky style eggnog','kentucky-style-eggnog'],['bloody mary','bloody-mary'],['key west screw driver','key-west'],['spiked eggnog','spiked-eggnog']]
+                    - each item, i in items
+                      div.dmixer-item.col-xs-6.col-sm-3.col-lg-6
+                        .dmixer-wrap
+                          .dmixer-drink.rollover-text-buble
+                              h4.dmixer-title #{item[0]}
+            .dmixer-aside-widget
+                  .aside-ad-slot.bordered-block
+                      img(alt="Absolute",src="images/aside-ad.png")
 
-        //- .dmixer-grid-block
-        //-   h2 More top picks
-        //-   section.dmixer-grid
-        //-       - var items = ['Alabama Riot','God\s alabama slammer','Alabama fizz','Apple slammer','Alabama slammer shooter','True alabama slammer']
-        //-         - each item, i in items
-        //-           div.dmixer-item.col-xs-12.col-sm-4.col-lg-4
-        //-             .dmixer-wrap
-        //-               a.dmixer-drink(href="javascript:void(0);")
-        //-                 h4.dmixer-title #{item[0]}
-        //-     div.view-more
-        //-       p View all top picks
         .adv-full-screen
           img(src="images/choose-your-holiday.jpg",alt="Choose your holiday")
-        .dmixer-grid-block
-        h2 Ocassional  drinks
-        section.dmixer-grid
-            .row
-              - var items = [['Tropical','104'], ['Holidays','89'], ['Romantic','41'],['Fruity','166'], ['Blue-colored','53'], ['Frozen','32'], ['Morning time','78'], ['Classic','118']]
-              - each item, i in items
-                div.dmixer-item.col-xs-6.col-sm-3.col-lg-3
-                  .dmixer-wrap
-                    a.dmixer-drink(href="javascript:void(0);")
-                      header
-                        i(class="icon-#{item[0]}")
-                      footer
-                        h4.dmixer-title #{item[0]}
-                        span.dmixer-subtitle #{item[1]} recepies
+
+
+        section.dmixer-ocassional-block
+            h2 Ocassional  drinks
+            section.dmixer-grid.dmixer-grid-main
+                .row
+                  - var items = [['Tropical','104'], ['Holidays','89'], ['Romantic','41'],['Fruity','166'], ['Blue-colored','53'], ['Frozen','32'], ['Morning-time','78'], ['Classic','118']]
+                  - each item, i in items
+                    div.dmixer-item.col-xs-6.col-sm-3.col-lg-3
+                      .dmixer-wrap
+                        a.dmixer-drink(href="javascript:void(0);")
+                          .dmixer-drink-image.hvr-grow
+                              img(alt="#{item[1]}",src="images/cocktails/#{item[0]}.jpg")
+                              .dmixer-drink-overlay
+                          .dmixer-drink-description
+                              h4.dmixer-title #{item[0]}
+                              span.dmixer-subtitle #{item[1]} recepies
 
 
 

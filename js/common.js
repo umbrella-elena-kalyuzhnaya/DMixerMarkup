@@ -15,29 +15,15 @@ $(document).ready(function() {
         return w > min && w <= max;
     }
 
-        /* Padding fixed height Navbar with open Bootstrap dropdown */
+    /* Padding fixed height Navbar with open Bootstrap dropdown */
+
+
 
     var animateNavbarHeight = function(additionalHeight) {
         $('.dmixer-main-navbar').css({
             paddingBottom: additionalHeight
         });
     }
-
-    /*var removeHeaderBottom = function() {
-        if ($('.dmixer-menu-item').hasClass('open'))
-            animateNavbarHeight(0)
-
-        if ($('.dmixer-search-item').hasClass('open'))
-            animateNavbarHeight(0)
-    }
-    var removeHeaderBottomMenu = function() {
-        if ($('.dmixer-menu-item').hasClass('open'))
-            animateNavbarHeight(0)
-    }
-    var removeHeaderBottomSearch = function() {
-        if ($('.dmixer-search-item').hasClass('open'))
-            animateNavbarHeight(0)
-    }*/
 
     var reduceHeader = function(currentDropgownItem) {
         if ($(currentDropgownItem).hasClass('open'))
@@ -201,7 +187,7 @@ $(document).ready(function() {
 
 
     //Fix modal mobile Boostrap 3
-    function Show(id) {
+/*    function Show(id) {
         //Fix CSS
 
         $(".modal-footer").css({
@@ -290,7 +276,7 @@ $(document).ready(function() {
         $('html, body').scrollTop(0);
         //Show
         $("#" + id).modal('show');
-    }
+    }*/
 
 
     
@@ -359,6 +345,7 @@ $(document).ready(function() {
           
 
     function carouselIni() {
+
 
       if ( $(window).width() < 479 ) {
 
@@ -437,7 +424,7 @@ $(document).ready(function() {
       carouselSmall();
     });
     var carouFredSelCall = function () {    /*  Custom configuration carousel  */
-   
+
       var options = {
             items               : 2,
             direction           : "left",
@@ -462,6 +449,8 @@ $(document).ready(function() {
       $('#carousel ul').carouFredSel(options);
 
     }
+    carouFredSelCall();
+
     var carouselContent = $('.post-circular').parent().html();
 
     $(window).on("resize", function () {
@@ -471,9 +460,9 @@ $(document).ready(function() {
         carouFredSelCall();
 
       }
-      if ( isBreakPoint(1262) ) {  /* Carousel destroy  */
+      if ( isBreakPoint(1262) ) {  /* Carousel destroy */ 
 
-        $('#carousel').empty().html(carouselContent);  
+        $('#carousel ul').empty().html(carouselContent);  
 
         if (postCircularCount >=3) {
           var postHeight = parseInt($('.post-item').height()) + parseInt($('.post-item').css('margin-bottom'));
